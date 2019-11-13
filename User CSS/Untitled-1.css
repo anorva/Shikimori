@@ -622,7 +622,7 @@ html {
 }
 
 body::-webkit-scrollbar-button:vertical:decrement {
-  background-color: var(--color-header-background);
+  background-color: var(--color-menu-background);
   height: 56px;
 }
 
