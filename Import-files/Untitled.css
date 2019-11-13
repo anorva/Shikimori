@@ -743,3 +743,11 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: var(--color-primary);
 }
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-hovered);
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background: var(--color-primary-pressed);
+}
