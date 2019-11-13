@@ -50,19 +50,19 @@ html {
 }
 
 /* Список вкладок */
-.m-tabs_list {
+.m-tabs > div:not([data-tab]) {
   display: flex;
   overflow-y: auto;
   padding: 0.5rem 0;
 }
 
 @media (min-width: 960px) {
-  .m-tabs_list {
+  .m-tabs > div:not([data-tab]) {
     justify-content: center;
   }
 }
 
-.m-tabs_switch {
+.m-tabs [data-tab-switch] {
   min-width: 95px;
   color: var(--color-text-hint);
   -webkit-tap-highlight-color: transparent;
@@ -70,47 +70,55 @@ html {
   cursor: pointer;
 }
   
-.m-tabs_switch.active {
+.m-tabs [data-tab-switch].active {
   cursor: default;
 }
 
-.m-tabs_switch:nth-child(1):active, 
-.m-tabs_switch.active:nth-child(1) {
+.m-tabs [data-tab-switch]:nth-child(1):active,
+.m-tabs [data-tab-switch].active:nth-child(1) {
   color: var(--color-tab-about-me);
 }
 
-.m-tabs_switch:nth-child(2):active, 
-.m-tabs_switch.active:nth-child(2) {
+.m-tabs [data-tab-switch]:nth-child(2):active,
+.m-tabs [data-tab-switch].active:nth-child(2) {
   color: var(--color-tab-anime);
 }
 
-.m-tabs_switch:nth-child(3):active, 
-.m-tabs_switch.active:nth-child(3) {
+.m-tabs [data-tab-switch]:nth-child(3):active,
+.m-tabs [data-tab-switch].active:nth-child(3) {
   color: var(--color-tab-manga);
 }
 
-.m-tabs_switch:nth-child(4):active, 
-.m-tabs_switch.active:nth-child(4) {
+.m-tabs [data-tab-switch]:nth-child(4):active,
+.m-tabs [data-tab-switch].active:nth-child(4) {
   color: var(--color-tab-characters);
 }
 
-.m-tabs_switch:nth-child(5):active, 
-.m-tabs_switch.active:nth-child(5) {
+.m-tabs [data-tab-switch]:nth-child(5):active,
+.m-tabs [data-tab-switch].active:nth-child(5) {
   color: var(--color-tab-people);
 }
 
-.m-tabs_switch:nth-child(6):active, 
-.m-tabs_switch.active:nth-child(6) {
+.m-tabs [data-tab-switch]:nth-child(6):active,
+.m-tabs [data-tab-switch].active:nth-child(6) {
   color: var(--color-tab-collections);
 }
 
+/* Содержимое */
+.m-tabs [data-tab] {
+  padding-top: 1rem;
+}
+
+/* Иконки для табов */
+
+/* Контейнер */
 .m-tabs_switch_container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Иконка вкладок */
+/* Иконка вкладки */
 .m-tabs_switch_icon {
   margin: 0 auto;
   padding: 8px;
@@ -120,11 +128,11 @@ html {
   margin: 0;
 }
 
-.m-tabs_switch:not(.active):hover .m-tabs_switch_icon {
+.m-tabs [data-tab-switch]:not(.active):hover .m-tabs_switch_icon {
   transform: translateY(-4px);
 }
 
-/* Название вкладок */
+/* Название вкладки */
 .m-tabs_switch_title {
   margin: 0 auto;
   padding-top: 4px;
@@ -138,11 +146,6 @@ html {
 .m-tabs_switch_icon,
 .m-tabs_switch_title {
   transition: 200ms ease-in-out;
-}
-
-/* Содержимое */
-.m-tabs_panel {
-  padding-top: 1rem;
 }
 
 /* Заголовки */
