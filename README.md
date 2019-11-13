@@ -1,1 +1,2 @@
-# shiki-projects
+# Shikimori
+Проекты для сайта shikimori.one
