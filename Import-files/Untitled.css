@@ -49,7 +49,7 @@ html {
   margin-bottom: 1rem;
 }
 
-/* Список вкладок */
+/* Список переключателей */
 .m-tabs > div:not([data-tab]) {
   display: flex;
   overflow-y: auto;
@@ -62,6 +62,7 @@ html {
   }
 }
 
+/* Переключатель */
 .m-tabs [data-tab-switch] {
   min-width: 95px;
   color: var(--color-text-hint);
@@ -104,12 +105,12 @@ html {
   color: var(--color-tab-collections);
 }
 
-/* Содержимое */
+/* Содержимое вкладок */
 .m-tabs [data-tab] {
   padding-top: 1rem;
 }
 
-/* Иконки для табов */
+/* Иконки для переключателей */
 
 /* Контейнер */
 .switch_container {
@@ -118,7 +119,7 @@ html {
   align-items: center;
 }
 
-/* Иконка вкладки */
+/* Иконка */
 .switch_icon {
   margin: 0 auto;
   padding: 8px;
@@ -132,7 +133,7 @@ html {
   transform: translateY(-4px);
 }
 
-/* Название вкладки */
+/* Название */
 .switch_title {
   margin: 0 auto;
   padding-top: 4px;
@@ -245,6 +246,7 @@ html {
   }
 }
 
+/* Ripple-анимация */
 .h-card::after {
   position: absolute;
   content: '';
@@ -340,8 +342,8 @@ html {
 /* Модуль оценок */
 
 /* Модуль */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry .name-en,
+[data-localized_names='en'] .about .b-catalog_entry .name-ru {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -361,14 +363,14 @@ html {
 }
 
 @media (min-width: 481px) {
-  [data-localized_names='ru'] .m-tabs .b-catalog_entry .name-en,
-  [data-localized_names='en'] .m-tabs .b-catalog_entry .name-ru {
+  [data-localized_names='ru'] .about .b-catalog_entry .name-en,
+  [data-localized_names='en'] .about .b-catalog_entry .name-ru {
     left: -6px;
   }
 }
   
-[data-localized_names='ru'] .m-tabs .b-catalog_entry .name-en::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry .name-ru::before {
+[data-localized_names='ru'] .about .b-catalog_entry .name-en::before,
+[data-localized_names='en'] .about .b-catalog_entry .name-ru::before {
   position: absolute;
   top: 100%;
   left: 0;
@@ -379,334 +381,334 @@ html {
   z-index: -1;
 }
   
-[data-localized_names='ru'] .m-tabs .b-catalog_entry .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry .name-ru::after {
   font-size: 0.875rem !important;
 }
 
 /* Оценки (Аниме) */
 
 /* JoJo no Kimyou na Bouken (TV) */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/14719-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/14719-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
   
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/14719-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/14719-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/14719-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/14719-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-ru::after {
   content: '8.00';
 }
 
 /* JoJo no Kimyou na Bouken Part 3: Stardust Crusaders */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/20899-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/20899-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/20899-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/20899-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/20899-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/20899-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-ru::after {
   content: '9.20';
 }
 
 /* JoJo no Kimyou na Bouken Part 3: Stardust Crusaders 2nd Season */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/26055-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/26055-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/26055-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/26055-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
   
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/26055-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/26055-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/26055-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/26055-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/26055-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/26055-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/26055-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/26055-'] .name-ru::after {
   content: '9.60';
 }
 
 /* JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/31933-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/31933-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/31933-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/31933-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/31933-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/31933-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/31933-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/31933-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/31933-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/31933-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/31933-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/31933-'] .name-ru::after {
   content: '9.85';
 }
 
 /* JoJo no Kimyou na Bouken Part 5: Ougon no Kaze */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/37991-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/37991-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/37991-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/37991-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/37991-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/37991-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/37991-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/37991-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/37991-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/37991-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/37991-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/37991-'] .name-ru::after {
   content: '8.65';
 }
 
 /* Naruto */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/20-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/20-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/20-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/20-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/20-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/20-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/20-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/20-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/20-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/20-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/20-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/20-'] .name-ru::after {
   content: '8.80';
 }
 
 /* Naruto: Shippuuden */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/1735-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/1735-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/1735-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/1735-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/1735-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/1735-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/1735-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/1735-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/1735-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/1735-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/1735-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/1735-'] .name-ru::after {
   content: '8.60';
 }
 
 /* Hunter x Hunter (2011) */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/11061-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/11061-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/11061-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/11061-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/11061-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/11061-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/11061-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/11061-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/11061-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/11061-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/11061-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/11061-'] .name-ru::after {
   content: '9.50';
 }
 
 /* Kenpuu Denki Berserk */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/33-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/33-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/33-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/33-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/33-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/33-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/33-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/33-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/33-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/33-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/33-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/33-'] .name-ru::after {
   content: '10.0';
 }
 
 /* Made in Abyss */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/34599-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/34599-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/34599-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/34599-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/34599-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/34599-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/34599-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/34599-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/34599-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/34599-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/34599-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/34599-'] .name-ru::after {
   content: '9.50';
 }
 
 /* Berserk: Ougon Jidai-hen III - Kourin */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/12115-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/12115-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/12115-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/12115-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/12115-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/12115-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/12115-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/12115-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/12115-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/12115-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/12115-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/12115-'] .name-ru::after {
   content: '9.90';
 }
 
 /* Оценки (Манга) */
 
 /* JoJo no Kimyou na Bouken Part 3: Stardust Crusaders */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/872-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/872-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/872-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/872-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/872-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/872-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/872-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/872-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/872-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/872-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/872-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/872-'] .name-ru::after {
   content: '9.50';
 }
 
 /* JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/3006-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/3006-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/3006-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/3006-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/3006-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/3006-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/3006-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/3006-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/3006-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/3006-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/3006-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/3006-'] .name-ru::after {
   content: '9.80';
 }
 
 /* JoJo no Kimyou na Bouken Part 5: Ougon no Kaze */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/3008-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/3008-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/3008-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/3008-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/3008-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/3008-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/3008-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/3008-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/3008-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/3008-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/3008-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/3008-'] .name-ru::after {
   content: '8.60';
 }
 
 /* JoJo no Kimyou na Bouken Part 6: Stone Ocean */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/3009-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/3009-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/3009-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/3009-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/3009-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/3009-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/3009-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/3009-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/3009-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/3009-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/3009-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/3009-'] .name-ru::after {
   content: '9.80';
 }
 
 /* Naruto */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/11-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/11-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/11-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/11-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/11-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/11-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/11-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/11-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/11-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/11-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/11-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/11-'] .name-ru::after {
   content: '9.80';
 }
 
 /* Nisekoi */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/31499-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/31499-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/31499-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/31499-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/31499-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/31499-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/31499-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/31499-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/31499-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/31499-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/31499-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/31499-'] .name-ru::after {
   content: '9.50';
 }
 
 /* Tokyo Ghoul */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/33327-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/33327-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/33327-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/33327-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/33327-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/33327-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-ru::after {
   content: '9.00';
 }
 
 /* Tokyo Ghoul:re */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/81117-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/81117-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/81117-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/81117-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/81117-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/81117-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/81117-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/81117-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/81117-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/81117-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/81117-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/81117-'] .name-ru::after {
   content: '9.00';
 }
 
 /* Gantz */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/564-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/564-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/564-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/564-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/564-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/564-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/564-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/564-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/564-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/564-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/564-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/564-'] .name-ru::after {
   content: '9.50';
 }
 
 /* Oyasumi Punpun */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/4632-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/4632-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/4632-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/4632-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/4632-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/4632-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/4632-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/4632-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/4632-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/4632-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/4632-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/4632-'] .name-ru::after {
   content: '10.0';
 }
 
 /* Uzumaki */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/436-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/436-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/436-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/436-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/436-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/436-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/436-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/436-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/436-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/436-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/436-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/436-'] .name-ru::after {
   content: '8.50';
 }
 
 /* Koroshiya 1 */
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/932-'] .name-en,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/932-'] .name-ru {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/932-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/932-'] .name-ru {
   opacity: 1;
   visibility: visible;
 }
 
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/932-'] .name-en::before,
-[data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='mangas/932-'] .name-en::after,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/932-'] .name-ru::before,
-[data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='mangas/932-'] .name-ru::after {
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/932-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/932-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/932-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/932-'] .name-ru::after {
   content: '8.20';
 }
 
