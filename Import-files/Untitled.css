@@ -112,28 +112,28 @@ html {
 /* Иконки для табов */
 
 /* Контейнер */
-.m-tabs_switch_container {
+.switch_container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 /* Иконка вкладки */
-.m-tabs_switch_icon {
+.switch_icon {
   margin: 0 auto;
   padding: 8px;
 }
 
-.m-tabs_switch_icon[data-icon]::before {
+.switch_icon[data-icon]::before {
   margin: 0;
 }
 
-.m-tabs [data-tab-switch]:not(.active):hover .m-tabs_switch_icon {
+.m-tabs [data-tab-switch]:not(.active):hover .switch_icon {
   transform: translateY(-4px);
 }
 
 /* Название вкладки */
-.m-tabs_switch_title {
+.switch_title {
   margin: 0 auto;
   padding-top: 4px;
   padding-bottom: 8px;
@@ -143,8 +143,8 @@ html {
   font-weight: bold;
 }
 
-.m-tabs_switch_icon,
-.m-tabs_switch_title {
+.switch_icon,
+.switch_title {
   transition: 200ms ease-in-out;
 }
 
