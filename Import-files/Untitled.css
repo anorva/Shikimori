@@ -506,7 +506,7 @@ html {
 [data-localized_names='ru'] .m-tabs .b-catalog_entry > a[href*='animes/33-'] .name-en::after,
 [data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/33-'] .name-ru::before,
 [data-localized_names='en'] .m-tabs .b-catalog_entry > a[href*='animes/33-'] .name-ru::after {
-  content: '9.90';
+  content: '10.0';
 }
 
 /* Made in Abyss */
