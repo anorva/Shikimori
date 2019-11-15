@@ -15,7 +15,7 @@
   background: rgba(0, 0, 0, 0.5); /* Цвет фона */
   color: #FAFAFA !important; /* Цвет текста */
   line-height: 1.5rem;
-  font-size: 0.75rem; /* Размер текста */
+  font-size: 0.8125rem; /* Размер текста */
   text-align: center;
   transition: 160ms ease-in-out;
   opacity: 0;
