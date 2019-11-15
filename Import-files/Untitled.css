@@ -726,6 +726,22 @@ html {
   content: '8.20';
 }
 
+/* Заметки (Персонажи) */
+
+/* Kanna Kamui */
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru {
+  opacity: 1;
+  visibility: visible;
+}
+
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru::after {
+  content: 'Божество';
+}
+
 /* Дополнительные настройки */
 
 /* Правки */
