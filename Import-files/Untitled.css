@@ -739,7 +739,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru::after {
-  content: 'Божество';
+  content: 'Богиня';
 }
 
 /* Дополнительные настройки */
