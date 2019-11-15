@@ -23,8 +23,8 @@
   width: 240px;
   margin-right: 6px;
   border-radius: 3px;
-  border: 1px solid var(--h-card-border-color);
-  background-color: var(--h-card-background-color);
+  border: 1px solid var(--h-card-border);
+  background-color: var(--h-card-background);
   transition: box-shadow 160ms ease-in-out;
 }
 
