@@ -1,0 +1,46 @@
+/* Модуль оценок */
+
+/* Модуль */
+[data-localized_names='ru'] .about .b-catalog_entry .name-en,
+[data-localized_names='en'] .about .b-catalog_entry .name-ru {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 6px;
+  left: -4px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px 2px 2px 0;
+  line-height: 1.0625rem;
+  font-size: 0;
+  color: #FAFAFA;
+  background: var(--color-rate-module);
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.42);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media (min-width: 481px) {
+  [data-localized_names='ru'] .about .b-catalog_entry .name-en,
+  [data-localized_names='en'] .about .b-catalog_entry .name-ru {
+    left: -6px;
+  }
+}
+  
+[data-localized_names='ru'] .about .b-catalog_entry .name-en::before,
+[data-localized_names='en'] .about .b-catalog_entry .name-ru::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-width: 4px 6px;
+  border-style: solid;
+  border-color: var(--color-rate-module-border) transparent transparent;
+  line-height: 1;
+  z-index: -1;
+}
+  
+[data-localized_names='ru'] .about .b-catalog_entry .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry .name-ru::after {
+  font-size: 0.875rem !important;
+}
