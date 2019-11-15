@@ -80,9 +80,17 @@ html {
   color: var(--color-tab-about-me);
 }
 
+.m-tabs [data-tab-switch]:not(.active):nth-child(1):hover .switch_icon::after {
+  background-color: var(--color-tab-about-me);
+}
+
 .m-tabs [data-tab-switch]:nth-child(2):active,
 .m-tabs [data-tab-switch].active:nth-child(2) {
   color: var(--color-tab-anime);
+}
+
+.m-tabs [data-tab-switch]:not(.active):nth-child(2):hover .switch_icon::after {
+  background-color: var(--color-tab-anime);
 }
 
 .m-tabs [data-tab-switch]:nth-child(3):active,
@@ -90,9 +98,17 @@ html {
   color: var(--color-tab-manga);
 }
 
+.m-tabs [data-tab-switch]:not(.active):nth-child(3):hover .switch_icon::after {
+  background-color: var(--color-tab-manga);
+}
+
 .m-tabs [data-tab-switch]:nth-child(4):active,
 .m-tabs [data-tab-switch].active:nth-child(4) {
   color: var(--color-tab-characters);
+}
+
+.m-tabs [data-tab-switch]:not(.active):nth-child(4):hover .switch_icon::after {
+  background-color: var(--color-tab-characters);
 }
 
 .m-tabs [data-tab-switch]:nth-child(5):active,
@@ -100,9 +116,17 @@ html {
   color: var(--color-tab-people);
 }
 
+.m-tabs [data-tab-switch]:not(.active):nth-child(5):hover .switch_icon::after {
+  background-color: var(--color-tab-people);
+}
+
 .m-tabs [data-tab-switch]:nth-child(6):active,
 .m-tabs [data-tab-switch].active:nth-child(6) {
   color: var(--color-tab-collections);
+}
+
+.m-tabs [data-tab-switch]:not(.active):nth-child(6):hover .switch_icon::after {
+  background-color: var(--color-tab-collections);
 }
 
 /* Содержимое вкладок */
@@ -120,7 +144,16 @@ html {
 }
 
 /* Иконка */
+.switch_icon,
+.switch_title {
+  transition: 200ms ease-in-out;
+}
+
 .switch_icon {
+  position: relative;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   padding: 8px;
 }
@@ -129,8 +162,20 @@ html {
   margin: 0;
 }
 
+.switch_icon::after {
+  position: absolute;
+  display: block;
+  content: '';
+  height: 0;
+  width: 0;
+  z-index: -1;
+  border-radius: 50%;
+  transition: inherit;
+}
+
 .m-tabs [data-tab-switch]:not(.active):hover .switch_icon {
   transform: translateY(-4px);
+  color: var(--color-background);
 }
 
 /* Название */
@@ -142,11 +187,6 @@ html {
   line-height: 1rem;
   font-size: 0.875rem;
   font-weight: bold;
-}
-
-.switch_icon,
-.switch_title {
-  transition: 200ms ease-in-out;
 }
 
 /* Заголовки */
