@@ -1,0 +1,131 @@
+/* Коллекции-карточки */
+
+/* Список карточек */
+.h-card_list {
+  display: flex;
+  overflow-y: auto;
+}
+
+@media (min-width: 1024px) {
+  .h-card_list {
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-y: visible;
+  }
+}
+
+/* Карточки */
+.h-card {
+  position: relative;
+  overflow: hidden;
+  min-width: 240px;
+  width: 240px;
+  margin-right: 6px;
+  border-radius: 3px;
+  border: 1px solid var(--h-card-border-color);
+  background-color: var(--h-card-background-color);
+  transition: box-shadow 160ms ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .h-card {
+    min-width: auto;
+    width: auto;
+    margin-right: 0;
+    border: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
+  }
+  .h-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.16);
+  }
+}
+
+/* Изображение карточки */
+.h-card_img {
+  display: block;
+  overflow: hidden;
+  height: 140px;
+}
+
+.h-card_img > img.b-poster {
+  display: inherit;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Название карточки */
+.h-card_title > .b-link {
+  padding: 16px;
+  line-height: 1rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--h-card-text-primary) !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Автор коллекции */
+.h-card_creator {
+  padding: 0 16px 16px;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  color: var(--h-card-text-secondary);
+}
+
+.h-card_title > .b-link,
+.h-card_creator {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.h-card:hover .h-card_title > .b-link {
+  text-decoration: none;
+}
+
+/* Overlay */
+.h-card_title > .b-link::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: background-color 160ms ease-in-out;
+}
+
+.h-card:hover .h-card_title > .b-link::before {
+  background-color: var(--h-card-overlay);
+}
+
+/* Ripple-анимация */
+.h-card::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  padding-top: 120%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--h-card-overlay-ripple);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.h-card:focus-within::after {
+  animation: h-card-ripple 800ms cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+@keyframes h-card-ripple {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2);
+  }
+}
