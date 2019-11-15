@@ -158,6 +158,11 @@ html {
   padding: 8px;
 }
 
+.m-tabs [data-tab-switch]:not(.active):hover .switch_icon {
+  transform: translateY(-4px);
+  color: var(--color-background);
+}
+
 .switch_icon[data-icon]::before {
   margin: 0;
 }
@@ -173,9 +178,9 @@ html {
   transition: inherit;
 }
 
-.m-tabs [data-tab-switch]:not(.active):hover .switch_icon {
-  transform: translateY(-4px);
-  color: var(--color-background);
+.m-tabs [data-tab-switch]:not(.active):hover .switch_icon::after {
+  height: 100%;
+  width: 100%;
 }
 
 /* Название */
