@@ -146,7 +146,7 @@ html {
 /* Иконка */
 .switch_icon,
 .switch_title {
-  transition: 200ms ease-in-out;
+  transition: 200ms cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
 .switch_icon {
