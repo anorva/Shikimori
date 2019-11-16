@@ -173,16 +173,9 @@ html {
   overflow-y: auto;
 }
 
-@media (min-width: 960px) {
-  .m-links {
-    justify-content: flex-end;
-  }
-}
-
 .m-link {
   display: inherit;
   flex-direction: column;
-  align-items: center;
   align-self: flex-start;
   white-space: nowrap;
   line-height: 1rem;
@@ -191,7 +184,7 @@ html {
 }
 
 .m-link:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 .m-link > span {
