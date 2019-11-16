@@ -173,6 +173,12 @@ html {
   overflow-y: auto;
 }
 
+@media (min-width: 960px) {
+  .m-links {
+    justify-content: flex-end;
+  }
+}
+
 .m-link {
   display: inherit;
   flex-direction: column;
