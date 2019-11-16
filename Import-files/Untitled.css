@@ -56,12 +56,6 @@ html {
   padding: 0.5rem 0;
 }
 
-@media (min-width: 960px) {
-  .m-tabs > div:not([data-tab]) {
-    justify-content: center;
-  }
-}
-
 /* Переключатель */
 .m-tabs [data-tab-switch] {
   flex-shrink: 0;
@@ -70,6 +64,14 @@ html {
   -webkit-tap-highlight-color: transparent;
   user-select: none;
   cursor: pointer;
+}
+
+.m-tabs [data-tab-switch]:first-child {
+  margin-left: auto;
+}
+
+.m-tabs [data-tab-switch]:last-child {
+  margin-right: auto;
 }
   
 .m-tabs [data-tab-switch].active {
