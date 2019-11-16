@@ -245,7 +245,7 @@ html {
 }
 
 .m-link_title > .b-link {
-  color: var(--color-text-primary) !important;
+  color: var(--color-text-secondary) !important;
 }
 
 .m-link_title > .b-link::before {
