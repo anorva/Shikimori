@@ -187,6 +187,7 @@ html {
 
 .m-link > span {
   font-weight: normal;
+  color: var(--color-text-hint);
 }
 
 /* Постеры */
