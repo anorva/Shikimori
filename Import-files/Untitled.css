@@ -184,11 +184,14 @@ html {
   flex-direction: column;
   align-items: center;
   align-self: flex-start;
-  margin-right: 10px;
   white-space: nowrap;
   line-height: 1rem;
   font-size: 0.875rem;
   font-weight: bold;
+}
+
+.m-link:not(:last-child) {
+  margin-right: 10px;
 }
 
 .m-link > span {
