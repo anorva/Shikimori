@@ -120,11 +120,6 @@ html {
 }
 
 /* Иконка */
-.switch_icon,
-.switch_title {
-  transition: 200ms ease-in-out;
-}
-
 .switch_icon {
   margin: 0 auto;
   padding: 8px;
@@ -147,6 +142,11 @@ html {
   line-height: 1rem;
   font-size: 0.875rem;
   font-weight: bold;
+}
+
+.switch_icon,
+.switch_title {
+  transition: 200ms ease-in-out;
 }
 
 /* Заголовки */
