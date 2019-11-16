@@ -174,21 +174,58 @@ html {
   margin-bottom: 1rem;
 }
 
+@media (min-width: 1024px) {
+  .m-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 0.5rem;
+  }
+}
+
 .m-link {
-  display: inherit;
-  flex-direction: column;
-  align-self: flex-start;
-  white-space: nowrap;
+  position: relative;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  grid-column-gap: 0.375rem;
+  min-width: 11.25rem;
+  width: 11.25rem;
+  margin-right: 0.5rem;
+  padding: 0.3125rem;
+  border-radius: 1.3125rem;
+  background-color: rgba(255, 255, 255, 0.08);
   line-height: 1rem;
   font-size: 0.875rem;
   font-weight: bold;
 }
 
-.m-link:not(:last-child) {
-  margin-right: 1rem;
+@media (min-width: 1024px) {
+  .m-link {
+    min-width: auto;
+    width: auto;
+    margin: 0;
+  }
 }
 
-.m-link > span {
+.m-link > img.b-poster {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.m-link_title {
+  display: grid;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.m-link_title > .b-link,
+.m-link_title > span {
+  oveflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.m-link_title > span {
   font-weight: normal;
   color: var(--color-text-hint);
 }
