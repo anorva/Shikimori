@@ -251,6 +251,10 @@ html {
   color: var(--color-text-secondary) !important;
 }
 
+.m-link:hover .m-link_title > .b-link {
+  text-decoration: none;
+}
+
 .m-link_title > .b-link::before {
   position: absolute;
   content: '';
