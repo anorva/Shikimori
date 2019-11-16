@@ -64,6 +64,7 @@ html {
 
 /* Переключатель */
 .m-tabs [data-tab-switch] {
+  flex-shrink: 0;
   min-width: 95px;
   color: var(--color-text-hint);
   -webkit-tap-highlight-color: transparent;
@@ -136,8 +137,7 @@ html {
 /* Название */
 .switch_title {
   margin: 0 auto;
-  padding-top: 4px;
-  padding-bottom: 8px;
+  padding: 4px 0 8px 0;
   white-space: nowrap;
   line-height: 1rem;
   font-size: 0.875rem;
