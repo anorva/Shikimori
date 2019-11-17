@@ -164,6 +164,7 @@
   grid-column-end: 2;
   padding: 1.5rem 0.5rem 0.25rem 0.5rem;
   border-radius: 4px;
+  text-align: center;
   line-height: 1rem;
   font-size: 0.75rem;
   font-weight: bold;
