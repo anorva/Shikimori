@@ -212,6 +212,12 @@
   font-size: 0.875rem;
   color: #FAFAFA;
   background: rgba(0, 0, 0, 0.5);
+  transition: 160ms ease-in-out;
+}
+
+.p-profiles .profile-content .achievements .cc-franchises .b-badge:hover::before {
+  top: -100%;
+  opacity: 0;
 }
 
 @media (min-width: 960px) {
