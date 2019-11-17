@@ -105,7 +105,6 @@
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image .inner a img,
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image .inner a .no-image {
   border-radius: 4px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement .c-image .inner a .border {
@@ -211,7 +210,6 @@
   margin: 0 !important;
   width: auto;
   border-radius: 4px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 /*
