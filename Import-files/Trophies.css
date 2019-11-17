@@ -131,11 +131,6 @@
 @media (min-width: 425px) {
   .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge::before {
     line-height: 1.375rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge::before {
     font-size: 0.875rem;
   }
 }
