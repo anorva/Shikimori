@@ -84,7 +84,6 @@
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "c-image before";
   overflow: hidden;
   width: auto;
   margin: 0;
@@ -96,7 +95,7 @@
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image {
-  grid-area: c-image;
+  grid-area: 1 / 1 / 2 / 2;
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image .inner a img,
@@ -112,7 +111,7 @@
   position: absolute;
   display: flex;
   align-items: center;
-  grid-area: before;
+  grid-area: 1 / 2 / 2 / 3;
   content: attr(data-title);
   top: 0;
   left: 0;
@@ -151,8 +150,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-area: 1 / 1 / 2 / 2;
   padding: 1.5rem 0.5rem 0.25rem 0.5rem;
   border-radius: 4px;
   text-align: center;
