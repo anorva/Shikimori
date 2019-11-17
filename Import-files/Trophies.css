@@ -35,6 +35,12 @@
   }
 }
 
+.p-profiles .profile-content .achievements .cc-3 .c-column .b-nothing_here {
+  line-height: 1.5rem;
+  font-size: 0.75rem;
+  color: #999999;
+}
+
 .profile-content .achievements .header {
   margin: 0;
   padding: 6px 0;
@@ -44,7 +50,7 @@
   line-height: 1.5rem;
   font-size: 0.875rem;
   font-weight: bold;
-  color: var(--trophies-text-header-title);
+  color: #212121;
 }
 
 .profile-content .achievements .header .size {
@@ -54,7 +60,7 @@
   line-height: 1rem;
   font-size: 0.6875rem;
   font-weight: bold;
-  color: var(--trophies-text-header-size);
+  color: #999999;
 }
 
 .p-profiles .profile-content .achievements .cc-achievements {
@@ -87,11 +93,11 @@
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement:hover {
-  background: var(--trophies-background-hovered);
+  background: rgba(18, 18, 18, 0.04);
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement:active {
-  background: var(--trophies-background-pressed);
+  background: rgba(18, 18, 18, 0.08);
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement:nth-child(n+3) {
@@ -128,7 +134,7 @@
   line-height: 1rem;
   font-size: 0.75rem;
   font-weight: bold;
-  color: var(--trophies-text-primary);
+  color: #212121;
   background: transparent;
 }
 
@@ -161,8 +167,8 @@
   line-height: 1rem;
   font-size: 0.75rem;
   font-weight: bold;
-  color: var(--trophies-text-on-overlay);
-  background: var(--trophies-overlay);
+  color: #FAFAFA;
+  background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: 160ms ease-in-out;
 }
@@ -212,14 +218,6 @@
   border-radius: 4px;
 }
 
-/*
-@media (min-width: 960px) {
-  .p-profiles .profile-content .achievements .cc-franchises .b-badge:nth-child(n+11) {
-    display: none;
-  }
-}
-*/
-
 .p-profiles .profile-content .achievements .cc-franchises .b-badge.level-0, 
 .p-profiles .profile-content .achievements .cc-franchises .b-badge.unavailable {
   filter: grayscale(1);
@@ -242,8 +240,8 @@
   width: auto;
   line-height: 1rem;
   font-size: 0.875rem;
-  color: var(--trophies-text-on-overlay);
-  background: var(--trophies-overlay);
+  color: #FAFAFA;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 960px) {
