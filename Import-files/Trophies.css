@@ -140,6 +140,10 @@
   }
 }
 
+.p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge:hover::before {
+  color: #dd5202;
+}
+
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge::after {
   position: absolute;
   display: flex;
