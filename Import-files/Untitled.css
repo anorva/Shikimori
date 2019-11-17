@@ -195,7 +195,6 @@ html {
   margin-right: 0.5rem;
   padding: 0.25rem;
   border-radius: 1.25rem;
-  background-color: var(--color-overlay-text-selected);
   line-height: 1rem;
   font-size: 0.875rem;
   font-weight: bold;
