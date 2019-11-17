@@ -253,7 +253,7 @@ html {
 }
 
 .m-link_title > .b-link,
-.m-link_title > span {
+.m-link_nint {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -276,7 +276,8 @@ html {
   bottom: 0;
 }
 
-.m-link_title > span {
+.m-link_nint {
+  font-size: 0.75rem;
   font-weight: normal;
   color: var(--color-text-hint);
 }
