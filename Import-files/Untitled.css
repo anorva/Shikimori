@@ -198,6 +198,7 @@ html {
   line-height: 1rem;
   font-size: 0.875rem;
   font-weight: bold;
+  transition: 160ms ease-in-out;
 }
 
 @media (min-width: 1024px) {
@@ -206,6 +207,10 @@ html {
     width: auto;
     margin: 0;
   }
+}
+
+.m-link:hover {
+  background-color: var(--color-overlay-text-hovered);
 }
 
 .m-link::after {
@@ -269,11 +274,6 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  transition: 160ms ease-in-out;
-}
-
-.m-link:hover .m-link_title > .b-link::before {
-  background-color: var(--color-overlay-text-hovered);
 }
 
 .m-link_title > span {
