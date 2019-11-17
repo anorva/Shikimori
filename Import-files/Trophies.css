@@ -251,3 +251,7 @@
     font-size: 1rem;
   }
 }
+
+.p-profiles .profile-content .achievements .cc-franchises .b-badge[data-progress="0"]::before {
+  opacity: 1;
+}
