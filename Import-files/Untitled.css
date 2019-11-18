@@ -871,11 +871,6 @@ html {
   text-decoration: none;
 }
 
-/* Скрываем ненужные элементы */
-.b-feedback {
-  display: none;
-}
-
 /* Скроллбар */
 body::-webkit-scrollbar-button:vertical:decrement {
   background-color: var(--color-menu-background);
