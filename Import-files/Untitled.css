@@ -59,12 +59,16 @@ html {
 
 /* Переключатель */
 .m-tabs [data-tab-switch] {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   flex-shrink: 0;
-  min-width: 95px;
+  min-width: 5.9375rem;
   color: var(--color-text-hint);
   -webkit-tap-highlight-color: transparent;
   user-select: none;
   cursor: pointer;
+  transition: color 200ms ease-in-out;
 }
 
 .m-tabs [data-tab-switch]:first-child {
@@ -109,47 +113,28 @@ html {
   color: var(--color-tab-collections);
 }
 
-/* Содержимое вкладок */
-.m-tabs [data-tab] {
-  padding-top: 1rem;
-}
-
-/* Иконки для переключателей */
-
-/* Контейнер */
-.switch_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Иконка */
-.switch_icon {
+.m-tabs [data-tab-switch][data-icon]::before {
   margin: 0 auto;
-  padding: 8px;
+  padding: 0.5rem;
+  transition: transform 200ms ease-in-out;
 }
 
-.m-tabs [data-tab-switch]:not(.active):hover .switch_icon {
-  transform: translateY(-4px);
+.m-tabs [data-tab-switch]:not(.active):hover::before {
+  transform: translateY(-0.25rem);
 }
 
-.switch_icon[data-icon]::before {
-  margin: 0;
-}
-
-/* Название */
-.switch_title {
+/* Название вкладки */
+.m-tabs [data-tab-switch] > strong {
   margin: 0 auto;
-  padding: 4px 0 8px 0;
+  padding: 0.25rem 0 0.5rem 0;
   white-space: nowrap;
   line-height: 1rem;
   font-size: 0.875rem;
-  font-weight: bold;
 }
 
-.switch_icon,
-.switch_title {
-  transition: 200ms ease-in-out;
+/* Содержимое вкладок */
+.m-tabs [data-tab] {
+  padding-top: 1rem;
 }
 
 /* Заголовки */
