@@ -176,7 +176,7 @@
 
 .p-profiles .profile-content .achievements .cc-franchises {
   display: grid;
-  grid-gap: 4px;
+  grid-gap: 8px;
   grid-template-columns: repeat(6, 1fr);
 }
 
