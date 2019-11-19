@@ -114,6 +114,7 @@ html {
 }
 
 .m-tabs [data-tab-switch][data-icon]::before {
+  display: block;
   margin: 0 auto;
   padding: 0.5rem;
   transition: transform 200ms ease-in-out;
