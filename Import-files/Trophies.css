@@ -86,13 +86,13 @@
   overflow: hidden;
   width: auto;
   margin: 0;
-  border-radius: 4px;
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image {
   grid-area: 1 / 1 / 2 / 2;
 }
 
+.p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge::before,
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image .inner a img,
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image .inner a .no-image {
   border-radius: 4px;
@@ -112,7 +112,6 @@
   height: auto;
   width: auto;
   padding: 1.5rem 0.5rem 0.25rem 0.5rem;
-  border-radius: 4px;
   white-space: normal;
   text-align: center;
   line-height: 1rem;
