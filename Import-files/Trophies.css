@@ -1,15 +1,3 @@
-.cc-3::after,
-.p-profiles-show .achievements .cc-achievements::after,
-.p-profiles-show .achievements .cc-franchises::after,
-.p-profiles .profile-content .achievements .cc-achievements .b-achievement:nth-child(n+3),
-.p-profiles .profile-content .achievements .cc-achievements .b-achievement .c-image .inner a .border {
-  display: none;
-}
-
-.p-profiles .profile-content .achievements {
-  display: block;
-}
-
 .p-profiles .profile-content .achievements .cc-3 {
   display: grid;
   grid-gap: 8px;
@@ -19,7 +7,6 @@
 .p-profiles .profile-content .achievements .cc-3 .c-column {
   display: grid;
   grid-gap: 8px;
-  align-self: flex-start;
   width: auto;
   margin: 0;
 }
@@ -82,7 +69,6 @@
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  overflow: hidden;
   width: auto;
   margin: 0;
 }
@@ -122,10 +108,15 @@
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge::after {
+  position: absolute;
   display: flex;
   align-items: center;
   grid-area: 1 / 2 / 2 / 3;
   content: attr(data-title);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   clear: none;
   padding: 0 1rem;
   white-space: normal;
@@ -216,4 +207,12 @@
 .p-profiles .profile-content .achievements .cc-franchises .b-badge.unavailable:not(:hover) img,
 .p-profiles .profile-content .achievements .cc-franchises .b-badge[data-progress="0"]::before {
   opacity: 1;
+}
+
+.cc-3::after,
+.p-profiles-show .achievements .cc-achievements::after,
+.p-profiles-show .achievements .cc-franchises::after,
+.p-profiles .profile-content .achievements .cc-achievements .b-achievement:nth-child(n+3),
+.p-profiles .profile-content .achievements .cc-achievements .b-achievement .c-image .inner a .border {
+  display: none;
 }
