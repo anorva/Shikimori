@@ -50,14 +50,35 @@
 }
 
 .p-profiles .profile-content .achievements .cc-achievements {
-  display: grid;
-  grid-gap: 8px;
-  grid-template-columns: 1fr;
+  display: flex;
+  overflow-y: auto;
 }
 
-@media (min-width: 660px) {
+.p-profiles .profile-content .achievements .cc-achievements .b-achievement {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-shrink: 0;
+  width: 100%;
+  margin: 0 8px 0 0;
+}
+
+.p-profiles .profile-content .achievements .cc-achievements .b-achievement:last-child {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
   .p-profiles .profile-content .achievements .cc-achievements {
+    display: grid;
+    grid-gap: 8px;
     grid-template-columns: repeat(2, 1fr);
+    overflow-y: visible;
+  }
+  .p-profiles .profile-content .achievements .cc-achievements .b-achievement {
+    width: auto;
+    margin: 0;
+  }
+  .p-profiles .profile-content .achievements .cc-achievements .b-achievement:nth-child(n+3) {
+    display: none;
   }
 }
 
@@ -65,13 +86,6 @@
   .p-profiles .profile-content .achievements .cc-achievements {
     grid-template-columns: 1fr;
   }
-}
-
-.p-profiles .profile-content .achievements .cc-achievements .b-achievement {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: auto;
-  margin: 0;
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image {
@@ -213,7 +227,6 @@
 .cc-3::after,
 .p-profiles-show .achievements .cc-achievements::after,
 .p-profiles-show .achievements .cc-franchises::after,
-.p-profiles .profile-content .achievements .cc-achievements .b-achievement:nth-child(n+3),
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement .c-image .inner a .border {
   display: none;
 }
