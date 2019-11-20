@@ -838,7 +838,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/48391-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/48391-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/48391-'] .name-ru::after {
-  content: '🦍❤️';
+  content: '🦍🖤';
 }
 
 /* Kanna Kamui */
