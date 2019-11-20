@@ -1,14 +1,3 @@
-:root {
-  --color-tab-about-me: #F06292;
-  --color-tab-anime: #9575CD;
-  --color-tab-manga: #7986CB;
-  --color-tab-characters: #64B5F6;
-  --color-tab-people: #81C784;
-  --color-tab-collections: #FFB74D;
-  --color-rate-module: #2196F3;
-  --color-rate-module-border: #1976D2;
-}
-
 /* Коллекция шрифтов */
 @font-face {
   font-family: 'Mansalva';
@@ -46,6 +35,12 @@ html {
 
 /* Вкладки */
 .m-tabs {
+  --color-tab-about-me: #F06292;
+  --color-tab-anime: #9575CD;
+  --color-tab-manga: #7986CB;
+  --color-tab-characters: #64B5F6;
+  --color-tab-people: #81C784;
+  --color-tab-collections: #FFB74D;
   margin-bottom: 1rem;
 }
 
@@ -446,6 +441,7 @@ html {
 /* Модуль */
 [data-localized_names='ru'] .about .b-catalog_entry .name-en,
 [data-localized_names='en'] .about .b-catalog_entry .name-ru {
+  --color-rate-module: #2196F3;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -473,6 +469,7 @@ html {
   
 [data-localized_names='ru'] .about .b-catalog_entry .name-en::before,
 [data-localized_names='en'] .about .b-catalog_entry .name-ru::before {
+  --color-rate-module-border: #1976D2;
   position: absolute;
   top: 100%;
   left: 0;
