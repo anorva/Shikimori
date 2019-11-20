@@ -35,12 +35,12 @@ html {
 
 /* Вкладки */
 .m-tabs {
-  --color-tab-about-me: #F06292;
-  --color-tab-anime: #9575CD;
-  --color-tab-manga: #7986CB;
-  --color-tab-characters: #64B5F6;
-  --color-tab-people: #81C784;
-  --color-tab-collections: #FFB74D;
+  --t-about-me: #F06292;
+  --t-anime: #9575CD;
+  --t-manga: #7986CB;
+  --t-characters: #64B5F6;
+  --t-people: #81C784;
+  --t-collections: #FFB74D;
   margin-bottom: 1rem;
 }
 
@@ -80,32 +80,32 @@ html {
 
 .m-tabs [data-tab-switch]:nth-child(1):active,
 .m-tabs [data-tab-switch].active:nth-child(1) {
-  color: var(--color-tab-about-me);
+  color: var(--t-about-me);
 }
 
 .m-tabs [data-tab-switch]:nth-child(2):active,
 .m-tabs [data-tab-switch].active:nth-child(2) {
-  color: var(--color-tab-anime);
+  color: var(--t-anime);
 }
 
 .m-tabs [data-tab-switch]:nth-child(3):active,
 .m-tabs [data-tab-switch].active:nth-child(3) {
-  color: var(--color-tab-manga);
+  color: var(--t-manga);
 }
 
 .m-tabs [data-tab-switch]:nth-child(4):active,
 .m-tabs [data-tab-switch].active:nth-child(4) {
-  color: var(--color-tab-characters);
+  color: var(--t-characters);
 }
 
 .m-tabs [data-tab-switch]:nth-child(5):active,
 .m-tabs [data-tab-switch].active:nth-child(5) {
-  color: var(--color-tab-people);
+  color: var(--t-people);
 }
 
 .m-tabs [data-tab-switch]:nth-child(6):active,
 .m-tabs [data-tab-switch].active:nth-child(6) {
-  color: var(--color-tab-collections);
+  color: var(--t-collections);
 }
 
 .m-tabs [data-tab-switch][data-icon]::before {
