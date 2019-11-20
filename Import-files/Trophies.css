@@ -4,6 +4,12 @@
   grid-template-columns: 1fr;
 }
 
+@media (min-width: 960px) {
+  .p-profiles .profile-content .achievements .cc-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .p-profiles .profile-content .achievements .cc-3 .c-column {
   display: grid;
   grid-gap: 8px;
@@ -13,9 +19,6 @@
 }
 
 @media (min-width: 960px) {
-  .p-profiles .profile-content .achievements .cc-3 {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .p-profiles .profile-content .achievements .cc-3 .c-column:last-child {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -54,6 +57,21 @@
   overflow-y: auto;
 }
 
+@media (min-width: 768px) {
+  .p-profiles .profile-content .achievements .cc-achievements {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(2, 1fr);
+    overflow-y: visible;
+  }
+}
+
+@media (min-width: 960px) {
+  .p-profiles .profile-content .achievements .cc-achievements {
+    grid-template-columns: 1fr;
+  }
+}
+
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -67,24 +85,12 @@
 }
 
 @media (min-width: 768px) {
-  .p-profiles .profile-content .achievements .cc-achievements {
-    display: grid;
-    grid-gap: 8px;
-    grid-template-columns: repeat(2, 1fr);
-    overflow-y: visible;
-  }
   .p-profiles .profile-content .achievements .cc-achievements .b-achievement {
     width: auto;
     margin: 0;
   }
   .p-profiles .profile-content .achievements .cc-achievements .b-achievement:nth-child(n+3) {
     display: none;
-  }
-}
-
-@media (min-width: 960px) {
-  .p-profiles .profile-content .achievements .cc-achievements {
-    grid-template-columns: 1fr;
   }
 }
 
@@ -173,7 +179,7 @@
   grid-template-columns: repeat(6, 1fr);
 }
 
-@media (min-width: 960px) {
+@media (min-width: 768px) {
   .p-profiles .profile-content .achievements .cc-franchises {
     grid-template-columns: repeat(12, 1fr);
   }
@@ -212,7 +218,7 @@
   opacity: 0;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 768px) {
   .p-profiles .profile-content .achievements .cc-franchises .b-badge::before {
     font-size: 1rem;
   }
