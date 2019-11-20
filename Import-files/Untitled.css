@@ -827,6 +827,20 @@ html {
 
 /* Заметки (Персонажи) */
 
+/* Chitoge Kirisaki */
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/48391-'] .name-en,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/48391-'] .name-ru {
+  opacity: 1;
+  visibility: visible;
+}
+
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/48391-'] .name-en::before,
+[data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/48391-'] .name-en::after,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/48391-'] .name-ru::before,
+[data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/48391-'] .name-ru::after {
+  content: '🦍❤️';
+}
+
 /* Kanna Kamui */
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-en,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru {
