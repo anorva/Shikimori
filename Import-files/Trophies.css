@@ -55,7 +55,6 @@
 .profile-content .achievements .header .size {
   padding: 3px 8px;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 4px;
   line-height: 1rem;
   font-size: 0.6875rem;
   font-weight: bold;
@@ -90,12 +89,6 @@
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image {
   grid-area: 1 / 1 / 2 / 2;
-}
-
-.p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge::before,
-.p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image .inner a img,
-.p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge .c-image .inner a .no-image {
-  border-radius: 4px;
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge::before {
@@ -184,7 +177,6 @@
   overflow: hidden;
   margin: 0 !important;
   width: auto;
-  border-radius: 4px;
 }
 
 .p-profiles .profile-content .achievements .cc-franchises .b-badge.level-0, 
