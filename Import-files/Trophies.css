@@ -130,15 +130,10 @@
 }
 
 .p-profiles .profile-content .achievements .cc-achievements .b-achievement.is-badge::after {
-  position: absolute;
   display: flex;
   align-items: center;
   grid-area: 1 / 2 / 2 / 3;
   content: attr(data-title);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   clear: none;
   padding: 0.5rem 1rem;
   white-space: normal;
