@@ -233,7 +233,7 @@ html {
 }
 
 /* Контейнер ифнормации */
-.m-link_title {
+.m-link_info {
   display: grid;
   grid-area: 1 / 2 / 2 / 3;
   padding-right: 0.625rem;
