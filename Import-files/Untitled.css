@@ -162,7 +162,7 @@ html {
   display: none;
 }
 
-/* Соцсети */
+/* Список соцсетей */
 @media (min-width: 1024px) {
   .m-list.m-link {
     display: grid;
@@ -257,7 +257,7 @@ html {
   color: var(--color-text-hint);
 }
 
-/* Коллекции-карточки */
+/* Список коллекций */
 @media (min-width: 1024px) {
   .m-list.m-card {
     display: grid;
