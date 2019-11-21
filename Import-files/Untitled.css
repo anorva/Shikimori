@@ -841,20 +841,6 @@ html {
   content: '🦍';
 }
 
-/* Megumin */
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/117225-'] .name-en,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/117225-'] .name-ru {
-  opacity: 1;
-  visibility: visible;
-}
-
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/117225-'] .name-en::before,
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/117225-'] .name-en::after,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/117225-'] .name-ru::before,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/117225-'] .name-ru::after {
-  content: '🤍';
-}
-
 /* Kanna Kamui */
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-en,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru {
@@ -866,7 +852,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru::after {
-  content: '🤍';
+  content: 'Богиня';
 }
 
 /* Дополнительные настройки */
