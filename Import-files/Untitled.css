@@ -441,7 +441,6 @@ html {
 /* Модуль */
 [data-localized_names='ru'] .about .b-catalog_entry .name-en,
 [data-localized_names='en'] .about .b-catalog_entry .name-ru {
-  --color-rate-module: #2196F3;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -453,7 +452,7 @@ html {
   line-height: 1.0625rem;
   font-size: 0;
   color: #FAFAFA;
-  background: var(--color-rate-module);
+  background: #2196F3;
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.42);
   opacity: 0;
   visibility: hidden;
@@ -469,13 +468,12 @@ html {
   
 [data-localized_names='ru'] .about .b-catalog_entry .name-en::before,
 [data-localized_names='en'] .about .b-catalog_entry .name-ru::before {
-  --color-rate-module-border: #1976D2;
   position: absolute;
   top: 100%;
   left: 0;
   border-width: 4px 6px;
   border-style: solid;
-  border-color: var(--color-rate-module-border) transparent transparent;
+  border-color: #1976D2 transparent transparent;
   line-height: 1;
   z-index: -1;
 }
