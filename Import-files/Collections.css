@@ -21,7 +21,7 @@
   overflow: hidden;
   width: 15rem;
   margin-right: 0.375rem;
-  border-radius: 0.1875rem;
+  border-radius: var(--h-card-rounded);
   border: 1px solid var(--h-card-border) !important;
   background-color: var(--h-card-background);
   -webkit-tap-highlight-color: transparent;
