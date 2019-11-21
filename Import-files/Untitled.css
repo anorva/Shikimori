@@ -269,6 +269,7 @@ html {
 
 .h-card_list > .b-link {
   position: relative;
+  display: grid;
   flex-shrink: 0;
   overflow: hidden;
   width: 15rem;
