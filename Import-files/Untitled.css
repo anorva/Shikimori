@@ -119,7 +119,7 @@ html {
   transform: translateY(-0.25rem);
 }
 
-/* Название вкладки */
+/* Название переключателя */
 .m-tabs [data-tab-switch] > strong {
   margin: 0 auto;
   padding: 0.25rem 0 0.5rem 0;
@@ -852,7 +852,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/117225-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/117225-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/117225-'] .name-ru::after {
-  content: '💜';
+  content: '🤍';
 }
 
 /* Kanna Kamui */
@@ -866,7 +866,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru::after {
-  content: '💜';
+  content: '🤍';
 }
 
 /* Дополнительные настройки */
