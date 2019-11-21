@@ -383,14 +383,10 @@ html {
 }
 
 /* Постеры */
-
-/* Ограничение высоты */
 .about .b-catalog_entry .image-cutter {
   max-width: none !important;
   max-height: none !important;
 }
-
-/* Отмена работы срипта */
 
 /* Единое регулирование размера обложек */
 .b-catalog_entry .cover .image-cutter::before {
@@ -420,8 +416,6 @@ html {
 }
 
 /* Модуль оценок */
-
-/* Модуль */
 [data-localized_names='ru'] .about .b-catalog_entry .name-en,
 [data-localized_names='en'] .about .b-catalog_entry .name-ru {
   position: absolute;
@@ -821,8 +815,6 @@ html {
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='characters/136728-'] .name-ru::after {
   content: '🤍';
 }
-
-/* Дополнительные настройки */
 
 /* Правки */
 .p-animes-show .cc-related-authors > .c-column .b-options-floated a, 
