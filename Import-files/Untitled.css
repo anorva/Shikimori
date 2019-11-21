@@ -179,6 +179,7 @@ html {
   border: 0 !important;
   border-radius: 1.25rem;
   line-height: 1rem;
+  -webkit-tap-highlight-color: transparent;
   transition: background-color 160ms ease-in-out;
 }
 
@@ -381,7 +382,7 @@ html {
   display: none;
 }
 
-/* Ripple-анимация */
+/* Ripple */
 @keyframes m-ripple {
   0% {
     opacity: 0.1;
