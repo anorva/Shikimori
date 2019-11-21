@@ -116,8 +116,7 @@
   color: var(--h-card-text-secondary);
 }
 
-.h-card_list > br,
-.h-card_list > .b-link > br {
+.h-card_list br {
   display: none;
 }
 
