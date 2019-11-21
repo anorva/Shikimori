@@ -233,21 +233,21 @@ html {
   padding-right: 0.625rem;
 }
 
-.m-link_title {
+.m-link_info > strong {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 0.875rem;
-  font-weight: bold;
   color: var(--color-text-secondary);
 }
 
-.m-link_nint {
+.m-link_info > em {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 0.75rem;
   font-weight: normal;
+  font-style: normal;
   color: var(--color-text-hint);
 }
 
@@ -348,26 +348,29 @@ html {
   object-position: center 35%;
 }
 
-.h-card_title {
-  display: block;
+.h-card_info {
+  display: grid;
+}
+
+.h-card_info > strong {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   padding: 1rem;
   line-height: 1rem;
   font-size: 0.875rem;
-  font-weight: bold;
-  color: var(--color-text-primary) !important;
+  color: var(--color-text-primary);
 }
 
-.h-card_creator {
-  display: block;
+.h-card_info > em {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   padding: 0 1rem 1rem;
   line-height: 1rem;
   font-size: 0.75rem;
+  font-weight: normal;
+  font-style: normal;
   color: var(--color-text-hint);
 }
 
