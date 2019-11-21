@@ -331,13 +331,11 @@ html {
 }
 
 .m-card_img {
-  display: block;
   overflow: hidden;
   height: 8.75rem;
 }
 
 .m-card_img > img.b-poster {
-  display: inherit;
   height: 100%;
   width: 100%;
   object-fit: cover;
