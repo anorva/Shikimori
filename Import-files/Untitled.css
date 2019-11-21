@@ -183,7 +183,7 @@ html {
 }
 
 .m-link_list > .b-link:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: var(--color-overlay-text-hovered);
 }
 
@@ -284,7 +284,7 @@ html {
 }
 
 .h-card_list > .b-link:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 @media (min-width: 1024px) {
@@ -375,10 +375,8 @@ html {
   color: var(--color-text-hint);
 }
 
-.m-link_list > br,
-.h-card_list > br,
-.m-link_list > .b-link > br,
-.h-card_list > .b-link > br {
+.m-link_list br,
+.h-card_list br {
   display: none;
 }
 
