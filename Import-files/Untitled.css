@@ -353,8 +353,12 @@ html {
   object-position: center;
 }
 
-.m-list.m-card > .b-link:nth-child(1) .m-card_img > img.b-poster {
+.m-list.m-card > .b-link[href*='collections/2064-'] > .m-card_img > img.b-poster {
   object-position: center 35%;
+}
+
+.m-list.m-card > .b-link[href*='collections/205-'] > .m-card_img > img.b-poster {
+  object-position: center 31%;
 }
 
 .m-card_info {
