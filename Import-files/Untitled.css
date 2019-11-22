@@ -424,7 +424,7 @@ html {
 .m-card_info_panel_icon {
   display: flex;
   justify-content: flex-end;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem;
 }
 
 .m-card_info_panel_icon::before {
