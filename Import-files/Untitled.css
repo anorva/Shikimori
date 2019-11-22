@@ -172,7 +172,7 @@ html {
   grid-column-gap: 0.375rem;
   flex-shrink: 0;
   overflow: hidden;
-  width: 11.5rem;
+  width: 100%;
   margin-right: 0.5rem;
   padding: 0.25rem;
   border: 0 !important;
@@ -184,6 +184,12 @@ html {
 .m-list.m-link > .b-link:hover {
   text-decoration: none !important;
   background-color: var(--color-overlay-text-hovered);
+}
+
+@media (min-width: 375px) {
+  .m-list.m-link > .b-link {
+    width: 11.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
