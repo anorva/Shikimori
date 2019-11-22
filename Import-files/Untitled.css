@@ -35,12 +35,11 @@ html {
 
 /* Вкладки */
 .m-tabs {
-  --t-about-me: #F06292;
-  --t-anime: #9575CD;
-  --t-manga: #7986CB;
-  --t-characters: #64B5F6;
-  --t-people: #81C784;
-  --t-collections: #FFB74D;
+  --t-about-me: #9575CD;
+  --t-anime: #7986CB;
+  --t-manga: #64B5F6;
+  --t-characters: #81C784;
+  --t-people: #FFB74D;
   margin-bottom: 1rem;
 }
 
@@ -101,11 +100,6 @@ html {
 .m-tabs [data-tab-switch]:nth-child(5):active,
 .m-tabs [data-tab-switch].active:nth-child(5) {
   color: var(--t-people);
-}
-
-.m-tabs [data-tab-switch]:nth-child(6):active,
-.m-tabs [data-tab-switch].active:nth-child(6) {
-  color: var(--t-collections);
 }
 
 .m-tabs [data-tab-switch][data-icon]::before {
