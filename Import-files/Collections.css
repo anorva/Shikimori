@@ -93,27 +93,27 @@
 
 .h-card_info {
   display: grid;
-  line-height: 1rem;
+  padding: 0.875rem;
+  color: var(--h-card-text);
 }
 
 .h-card_info > strong {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding: 1rem;
+  line-height: 1.75rem;
   font-size: 0.875rem;
-  color: var(--h-card-text-primary);
 }
 
 .h-card_info > em {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding: 0 1rem 1rem;
+  line-height: 1.25rem;
   font-size: 0.75rem;
   font-weight: normal;
   font-style: normal;
-  color: var(--h-card-text-secondary);
+  opacity: 0.6;
 }
 
 .h-card_list br {
