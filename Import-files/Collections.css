@@ -56,7 +56,7 @@
 }
 
 .h-card_list > .b-link:hover::before {
-  background-color: var(--h-card-overlay-hovered);
+  background-color: var(--h-card-hovered);
 }
 
 .h-card_list > .b-link::after {
@@ -68,7 +68,7 @@
   padding-top: 120%;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--h-card-overlay-pressed);
+  background-color: var(--h-card-pressed);
   opacity: 0;
   pointer-events: none;
 }
