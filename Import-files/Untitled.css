@@ -413,8 +413,7 @@ html {
 
 /* Текст всплывашки */
 .m-card_info_panel_text {
-  height: 100%;
-  width: 100%;
+  flex-grow: 1;
   overflow-x: auto;
   padding: 0.875rem;
   line-height: 1.25rem;
