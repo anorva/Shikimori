@@ -405,7 +405,7 @@ html {
 }
   
 .m-card_info.user-defined:not(.active) > .m-card_info_panel {
-  opacity: 0;
+  transform: translateY(100%);
   pointer-events: none;
 }
 
@@ -423,6 +423,7 @@ html {
   font-size: 0.875rem;
   font-weight: normal;
   background-color: var(--color-background-dialog);
+  transition: transform 200ms cubic-bezier(0.46, 0.03, 0.52, 0.96);
 }
 
 .m-card_info_panel::before {
