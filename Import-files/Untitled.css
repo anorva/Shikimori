@@ -364,7 +364,6 @@ html {
 .m-card_title {
   display: grid;
   padding: 0.875rem;
-  color: var(--color-text-primary);
 }
 
 .m-card_title > strong {
@@ -373,6 +372,7 @@ html {
   white-space: nowrap;
   line-height: 1.75rem;
   font-size: 0.875rem;
+  color: var(--color-text-primary);
 }
 
 .m-card_title > em {
@@ -383,25 +383,25 @@ html {
   font-size: 0.75rem;
   font-weight: normal;
   font-style: normal;
-  opacity: 0.6;
+  color: var(--color-text-hint);
 }
 
 .m-card_info {
   display: flex;
   justify-content: flex-end;
   padding: 0.25rem;
-  color: var(--color-text-primary);
   cursor: pointer;
 }
 
 .m-card_info::before {
   margin: 0;
   padding: 0;
-  transition: opacity 160ms ease-in-out;
+  color: var(--color-text-hint);
+  transition: color 160ms ease-in-out;
 }
 
-.m-card_info:not(:hover)::before {
-  opacity: 0.6;
+.m-card_info:hover::before {
+  color: var(--color-text-secondary);
 }
 
 .m-card_info_panel {
@@ -430,11 +430,12 @@ html {
 .m-card_info_panel_icon::before {
   margin: 0;
   padding: 0;
-  transition: opacity 160ms ease-in-out;
+  color: var(--color-text-hint);
+  transition: color 160ms ease-in-out;
 }
 
-.m-card_info_panel_icon:not(:hover)::before {
-  opacity: 0.6;
+.m-card_info_panel_icon:hover::before {
+  color: var(--color-text-secondary);
 }
 
 .m-card_info_panel_text {
@@ -445,6 +446,7 @@ html {
   line-height: 1.25rem;
   font-size: 0.875rem;
   font-weight: normal;
+  color: var(--color-text-primary);
   cursor: auto;
 }
 
