@@ -165,7 +165,7 @@ html {
   }
 }
 
-.m-link {
+.m-link > .b-link {
   position: relative;
   display: grid;
   grid-template-columns: 2rem 1fr;
@@ -181,16 +181,13 @@ html {
   transition: background-color 160ms ease-in-out;
 }
 
-.m-link:hover {
+.m-link > .b-link:hover {
+  text-decoration: none !important;
   background-color: var(--color-overlay-text-hovered);
 }
 
-.m-link:hover > .b-link {
-  text-decoration: none !important;
-}
-
 @media (min-width: 1024px) {
-  .m-link {
+  .m-link > .b-link {
     width: auto;
     margin: 0;
   }
