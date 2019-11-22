@@ -261,6 +261,7 @@ html {
   }
 }
 
+/* Карточка */
 .m-card {
   position: relative;
   display: grid;
@@ -293,6 +294,7 @@ html {
   }
 }
 
+/* Фикс */
 .m-card::before {
   position: absolute;
   content: '';
@@ -304,21 +306,25 @@ html {
   pointer-events: none;
 }
 
+/* Фикс 2 */
 .m-card > .b-link {
   text-decoration: none !important;
 }
 
+/* Контейнер изображения */
 .m-card_img {
   position: relative;
   overflow: hidden;
 }
 
+/* Aspect ratio 16:9 */
 .m-card_img::before {
   display: block;
   content: '';
   padding-top: 56.25%;
 }
 
+/* Изображение */
 .m-card_img > img.b-poster {
   position: absolute;
   top: 0;
@@ -331,19 +337,13 @@ html {
   object-position: center;
 }
 
-.m-card > .b-link[href*='collections/2064-'] > .m-card_img > img.b-poster {
-  object-position: center 35%;
-}
-
-.m-card > .b-link[href*='collections/205-'] > .m-card_img > img.b-poster {
-  object-position: center 31%;
-}
-
+/* Блок названия */
 .m-card_title {
   display: grid;
   padding: 0.875rem;
 }
 
+/* Название коллекции */
 .m-card_title > strong {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -353,6 +353,7 @@ html {
   color: var(--color-text-primary);
 }
 
+/* Автор коллекции */
 .m-card_title > em {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -364,6 +365,7 @@ html {
   color: var(--color-text-hint);
 }
 
+/* Дополнительная информация */
 .m-card_info {
   display: flex;
   justify-content: flex-end;
@@ -371,6 +373,7 @@ html {
   cursor: pointer;
 }
 
+/* Button More */
 .m-card_info::before {
   margin: 0;
   padding: 0;
@@ -382,10 +385,11 @@ html {
   color: var(--color-text-secondary);
 }
 
+/* Всплывающее окно информации */
 .m-card_info_panel {
   position: absolute;
-  display: grid;
-  grid-template-rows: 2rem auto;
+  display: flex;
+  flex-direction: column;
   top: 0;
   left: 0;
   right: 0;
@@ -399,6 +403,7 @@ html {
   pointer-events: none;
 }
 
+/* Button Close */
 .m-card_info_panel_icon {
   display: flex;
   justify-content: flex-end;
@@ -416,6 +421,7 @@ html {
   color: var(--color-text-secondary);
 }
 
+/* Текст всплывашки */
 .m-card_info_panel_text {
   height: 100%;
   width: 100%;
@@ -428,6 +434,7 @@ html {
   cursor: auto;
 }
 
+/* Скроллбар для всплывашки */
 .m-card_info_panel_text::-webkit-scrollbar {
   width: 0.5rem;
 }
@@ -440,6 +447,15 @@ html {
   border-radius: 0.25rem;
   border: 0.125rem solid var(--color-background-dialog);
   background-color: var(--color-primary);
+}
+
+/* Регулировка изображений */
+.m-card > .b-link[href*='collections/2064-'] > .m-card_img > img.b-poster {
+  object-position: center 35%;
+}
+
+.m-card > .b-link[href*='collections/205-'] > .m-card_img > img.b-poster {
+  object-position: center 31%;
 }
 
 /* Ripple */
