@@ -397,6 +397,7 @@ html {
 .m-card_info::before {
   margin: 0;
   padding: 0;
+  transition: opacity 160ms ease-in-out;
 }
 
 .m-card_info:not(:hover)::before {
@@ -428,10 +429,6 @@ html {
   float: right;
   margin: 0;
   padding: 0;
-}
-
-.m-card_info_panel:not(:hover)::before {
-  opacity: 0.6;
 }
 
 .m-card_info_panel::-webkit-scrollbar {
