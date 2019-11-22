@@ -389,7 +389,7 @@ html {
 .m-card_info {
   display: flex;
   justify-content: flex-end;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem;
   color: var(--color-text-primary);
   cursor: pointer;
 }
