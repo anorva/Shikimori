@@ -264,11 +264,12 @@ html {
 /* Карточка */
 .m-card {
   position: relative;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   flex-shrink: 0;
   overflow: hidden;
   width: 100%;
-  margin-right: 0.375rem;
+  margin: 0 0.375rem 0 0;
   border-radius: 0.1875rem;
   border: 1px solid var(--color-border) !important;
   background-color: var(--color-background-dialog);
@@ -285,7 +286,7 @@ html {
 @media (min-width: 1024px) {
   .m-card {
     width: auto;
-    margin-right: 0;
+    margin: 0;
     border: 0 !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
   }
@@ -327,7 +328,8 @@ html {
 
 /* Блок названия */
 .m-card_title {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   padding: 0.875rem;
 }
 
@@ -377,7 +379,7 @@ html {
 .m-card_info_panel {
   position: absolute;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   top: 0;
   left: 0;
   right: 0;
@@ -414,7 +416,7 @@ html {
   height: 100%;
   width: 100%;
   overflow-x: auto;
-  padding: 0 0.875rem 0.5rem 0.875rem;
+  padding: 0.875rem;
   line-height: 1.25rem;
   font-size: 0.875rem;
   font-weight: normal;
