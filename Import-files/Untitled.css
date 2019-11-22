@@ -310,7 +310,6 @@ html {
   display: block;
   content: '';
   padding-top: 56.25%;
-  backface-visibility: hidden;
 }
 
 /* Изображение */
