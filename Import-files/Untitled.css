@@ -295,18 +295,6 @@ html {
 }
 
 /* Фикс */
-.m-card::before {
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  backface-visibility: hidden;
-  pointer-events: none;
-}
-
-/* Фикс 2 */
 .m-card > .b-link {
   text-decoration: none !important;
 }
@@ -322,6 +310,7 @@ html {
   display: block;
   content: '';
   padding-top: 56.25%;
+  backface-visibility: hidden;
 }
 
 /* Изображение */
