@@ -342,7 +342,7 @@ html {
 
 .m-card_info {
   display: grid;
-  padding: 1rem;
+  padding: 0.875rem;
   color: var(--color-text-primary);
 }
 
