@@ -268,7 +268,7 @@ html {
   overflow: hidden;
   width: 15rem;
   margin-right: 0.375rem;
-  border-radius: 0.5rem;
+  border-radius: 0.1875rem;
   border: 1px solid var(--color-border) !important;
   background-color: var(--color-background-dialog);
   -webkit-tap-highlight-color: transparent;
