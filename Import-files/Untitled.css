@@ -400,7 +400,7 @@ html {
 }
 
 .m-card_info:not(:hover)::before {
-  opacity: 0.8;
+  opacity: 0.6;
 }
   
 .m-card_info.user-defined:not(.active) > .m-card_info_panel {
@@ -417,7 +417,7 @@ html {
   height: 100%;
   width: 100%;
   overflow-x: auto;
-  padding: 0.5rem 0.5rem 0.5rem 0.875rem;
+  padding: 0.5rem 0.875rem;
   line-height: 1.25rem;
   font-size: 0.875rem;
   font-weight: normal;
@@ -431,7 +431,7 @@ html {
 }
 
 .m-card_info_panel:not(:hover)::before {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .m-card_info_panel::-webkit-scrollbar {
