@@ -325,11 +325,22 @@ html {
 }
 
 .m-card_img {
+  position: relative;
   overflow: hidden;
-  height: 8.75rem;
+}
+
+.m-card_img::before {
+  display: block;
+  content: '';
+  padding-top: 56.25%;
 }
 
 .m-card_img > img.b-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   height: 100%;
   width: 100%;
   object-fit: cover;
