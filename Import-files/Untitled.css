@@ -320,15 +320,24 @@ html {
 }
 
 /* Регулировка изображений */
+
+/* Bukako */
 .m-card > .b-link[href*='collections/2064-'] > .m-card_img > img.b-poster {
   object-position: center 35%;
 }
 
+/* Traps & Reverse Traps */
 .m-card > .b-link[href*='collections/205-'] > .m-card_img > img.b-poster {
   object-position: center 5%;
 }
 
+/* Веснушки */
 .m-card > .b-link[href*='collections/2338-'] > .m-card_img > img.b-poster {
+  object-position: center 25%;
+}
+
+/* Гадкий утёнок */
+.m-card > .b-link[href*='collections/2513-'] > .m-card_img > img.b-poster {
   object-position: center 25%;
 }
 
