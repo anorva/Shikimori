@@ -368,28 +368,22 @@ html {
   color: var(--color-text-hint);
 }
 
-/* Дополнительная информация */
-.m-card_info {
+/* Кнопки блока описания */
+.m-card_description_button {
   display: flex;
   justify-content: flex-end;
   padding: 0.25rem;
   cursor: pointer;
 }
 
-/* Button More */
-.m-card_info::before {
+.m-card_description_button::before {
   margin: 0;
-  padding: 0;
   color: var(--color-text-hint);
   transition: color 160ms ease-in-out;
 }
 
-.m-card_info:hover::before {
-  color: var(--color-text-secondary);
-}
-
-/* Всплывающее окно информации */
-.m-card_info_panel {
+/* Всплывающее окно с описанием */
+.m-card_description_panel {
   position: absolute;
   display: flex;
   flex-direction: column-reverse;
@@ -401,31 +395,13 @@ html {
   transition: transform 200ms cubic-bezier(0.46, 0.03, 0.52, 0.96);
 }
 
-.m-card_info.user-defined:not(.active) > .m-card_info_panel {
+.m-card_description_section.user-defined:not(.active) > .m-card_description_panel {
   transform: translate(100%, 100%);
   pointer-events: none;
 }
 
-/* Button Close */
-.m-card_info_panel_button {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0.25rem;
-}
-
-.m-card_info_panel_button::before {
-  margin: 0;
-  padding: 0;
-  color: var(--color-text-hint);
-  transition: color 160ms ease-in-out;
-}
-
-.m-card_info_panel_button:hover::before {
-  color: var(--color-text-secondary);
-}
-
 /* Текст всплывашки */
-.m-card_info_panel_text {
+.m-card_description_panel_text {
   flex-grow: 1;
   overflow-x: auto;
   padding: 0.875rem;
@@ -433,19 +409,18 @@ html {
   font-size: 0.875rem;
   font-weight: normal;
   color: var(--color-text-primary);
-  cursor: auto;
 }
 
 /* Скроллбар для всплывашки */
-.m-card_info_panel_text::-webkit-scrollbar {
+.m-card_description_panel_text::-webkit-scrollbar {
   width: 0.5rem;
 }
 
-.m-card_info_panel_text::-webkit-scrollbar-track {
+.m-card_description_panel_text::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.m-card_info_panel_text::-webkit-scrollbar-thumb {
+.m-card_description_panel_text::-webkit-scrollbar-thumb {
   border-radius: 0.25rem;
   border: 0.125rem solid var(--color-background-dialog);
   background-color: var(--color-primary);
