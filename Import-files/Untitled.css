@@ -156,6 +156,8 @@ html {
   display: none;
 }
 
+/* Соцсети */
+
 /* Список соцсетей */
 @media (min-width: 1024px) {
   .m-list.m--link {
@@ -251,6 +253,8 @@ html {
   color: var(--color-text-hint);
 }
 
+/* Коллекции */
+
 /* Список коллекций */
 @media (min-width: 1024px) {
   .m-list.m--card {
@@ -307,11 +311,19 @@ html {
   overflow: hidden;
 }
 
-/* Aspect ratio 16:9 */
 .m-card_img::before {
   display: block;
   content: '';
+}
+
+/* Aspect ratio 16:9 */
+.m-card_img--16-9::before {
   padding-top: 56.25%;
+}
+
+/* Aspect ratio 4:3 */
+.m-card_img--4-3::before {
+  padding-top: 75%;
 }
 
 /* Изображение */
@@ -328,31 +340,31 @@ html {
 }
 
 /* Блок названия */
-.m-card_title {
+.m-card_title_section {
   display: flex;
   flex-direction: column;
   padding: 0.875rem;
 }
 
 /* Название коллекции */
-.m-card_title > strong {
+.m-card_title {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   line-height: 1.75rem;
   font-size: 0.875rem;
+  font-weight: bold;
   color: var(--color-text-primary);
 }
 
 /* Автор коллекции */
-.m-card_title > em {
+.m-card_subhead {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   line-height: 1.25rem;
   font-size: 0.75rem;
   font-weight: normal;
-  font-style: normal;
   color: var(--color-text-hint);
 }
 
@@ -395,20 +407,20 @@ html {
 }
 
 /* Button Close */
-.m-card_info_panel_icon {
+.m-card_info_panel_button {
   display: flex;
   justify-content: flex-end;
   padding: 0.25rem;
 }
 
-.m-card_info_panel_icon::before {
+.m-card_info_panel_button::before {
   margin: 0;
   padding: 0;
   color: var(--color-text-hint);
   transition: color 160ms ease-in-out;
 }
 
-.m-card_info_panel_icon:hover::before {
+.m-card_info_panel_button:hover::before {
   color: var(--color-text-secondary);
 }
 
