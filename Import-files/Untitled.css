@@ -548,7 +548,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/33-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/33-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/33-'] .name-ru::after {
-  content: '10.0';
+  content: '9.90';
 }
 
 /* Made in Abyss */
@@ -718,7 +718,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/4632-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/4632-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/4632-'] .name-ru::after {
-  content: '10.0';
+  content: '9.90';
 }
 
 /* Uzumaki */
@@ -770,8 +770,8 @@ html {
   letter-spacing: -1px;
 }
 
-.p-profiles-show .about a:hover {
-  text-decoration: none;
+.b-catalog_entry > a:hover {
+  text-decoration: none !important;
 }
 
 /* Скроллбар */
