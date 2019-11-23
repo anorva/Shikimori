@@ -340,14 +340,14 @@ html {
 }
 
 /* Блок названия */
-.m-card_title_section {
+.m-card_primary_section {
   display: flex;
   flex-direction: column;
   padding: 0.875rem;
 }
 
 /* Название коллекции */
-.m-card_title {
+.m-card_primary_title {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -358,7 +358,7 @@ html {
 }
 
 /* Автор коллекции */
-.m-card_subhead {
+.m-card_primary_subhead {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
