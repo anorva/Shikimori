@@ -165,7 +165,7 @@ html {
 .m-card {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   flex-shrink: 0;
   align-self: flex-start;
   overflow: hidden;
@@ -263,6 +263,17 @@ html {
   font-size: 0.75rem;
   font-weight: normal;
   color: var(--color-text-hint);
+}
+
+/* Блок описания */
+.m-card_hint_section {
+  z-index: 1;
+}
+
+/* Фикс 2 */
+.m-card_hint_section.user-defined.active ~ .b-link {
+  visibility: hidden;
+  opacity: 0;
 }
 
 /* Кнопки блока описания */
