@@ -369,21 +369,21 @@ html {
 }
 
 /* Кнопки блока описания */
-.m-card_description_button {
+.m-card_hint_button {
   display: flex;
   justify-content: flex-end;
   padding: 0.25rem;
   cursor: pointer;
 }
 
-.m-card_description_button::before {
+.m-card_hint_button::before {
   margin: 0;
   color: var(--color-text-hint);
   transition: color 160ms ease-in-out;
 }
 
 /* Всплывающее окно с описанием */
-.m-card_description_panel {
+.m-card_hint_panel {
   position: absolute;
   display: flex;
   flex-direction: column-reverse;
@@ -395,13 +395,13 @@ html {
   transition: transform 200ms cubic-bezier(0.46, 0.03, 0.52, 0.96);
 }
 
-.m-card_description_section.user-defined:not(.active) > .m-card_description_panel {
+.m-card_hint_section.user-defined:not(.active) > .m-card_hint_panel {
   transform: translate(100%, 100%);
   pointer-events: none;
 }
 
 /* Текст всплывашки */
-.m-card_description_panel_text {
+.m-card_hint_panel_text {
   flex-grow: 1;
   overflow-x: auto;
   padding: 0.875rem;
@@ -412,15 +412,15 @@ html {
 }
 
 /* Скроллбар для всплывашки */
-.m-card_description_panel_text::-webkit-scrollbar {
+.m-card_hint_panel_text::-webkit-scrollbar {
   width: 0.5rem;
 }
 
-.m-card_description_panel_text::-webkit-scrollbar-track {
+.m-card_hint_panel_text::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.m-card_description_panel_text::-webkit-scrollbar-thumb {
+.m-card_hint_panel_text::-webkit-scrollbar-thumb {
   border-radius: 0.25rem;
   border: 0.125rem solid var(--color-background-dialog);
   background-color: var(--color-primary);
