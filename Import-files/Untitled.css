@@ -317,12 +317,12 @@ html {
 }
 
 /* Aspect ratio 16:9 */
-.m-card_img--16-9::before {
+.--16-9::before {
   padding-top: 56.25%;
 }
 
 /* Aspect ratio 4:3 */
-.m-card_img--4-3::before {
+.--4-3::before {
   padding-top: 75%;
 }
 
