@@ -396,11 +396,10 @@ html {
   right: 0;
   bottom: 0;
   background-color: var(--color-background-dialog);
-  transition: transform 200ms cubic-bezier(0.46, 0.03, 0.52, 0.96);
 }
 
 .m-card_hint_section.user-defined:not(.active) > .m-card_hint_panel {
-  transform: translateY(100%);
+  display: none;
   pointer-events: none;
 }
 
