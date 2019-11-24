@@ -167,7 +167,6 @@ html {
   .m-card_gridbox_column_list {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(4, 1fr);
     overflow-y: visible;
   }
 }
