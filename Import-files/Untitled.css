@@ -370,7 +370,9 @@ html {
 /* Регулировка изображений */
 
 /* Постапокалипсис в манге */
-.m-card > .b-link[href*='collections/528-'] > .m-card_img > img.b-poster {
+.m-card > .b-link[href*='collections/528-'] > .m-card_img > img.b-poster,
+/* Гадкий утёнок */
+.m-card > .b-link[href*='collections/2513-'] > .m-card_img > img.b-poster {
   object-position: center 30%;
 }
 
