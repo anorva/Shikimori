@@ -334,27 +334,6 @@ html {
   object-position: center 5%;
 }
 
-/* Веснушки */
-.m-card > .b-link[href*='collections/2338-'] > .m-card_img > img.b-poster {
-  object-position: center 60%;
-}
-
-/* Персонажи-мемы */
-.m-card > .b-link[href*='collections/2122-'] > .m-card_img > img.b-poster {
-  object-position: center 10%;
-}
-
-/* Ripple */
-@keyframes m-ripple {
-  0% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(2);
-  }
-}
-
 /* Постеры */
 .about .b-catalog_entry .image-cutter {
   max-width: none !important;
