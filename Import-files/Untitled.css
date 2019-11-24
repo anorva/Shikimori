@@ -384,6 +384,11 @@ html {
   object-position: center 25%;
 }
 
+/* Деревня в аниме */
+.m-card > .b-link[href*='collections/673-'] > .m-card_img > img.b-poster {
+  object-position: center 75%;
+}
+
 /* Ripple */
 @keyframes m-ripple {
   0% {
