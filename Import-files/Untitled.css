@@ -159,6 +159,10 @@ html {
   display: grid;
 }
 
+.m-card_gridbox_column br {
+  display: none;
+}
+
 /* Список коллекций */
 .m-card_gridbox_column_list {
   display: flex;
