@@ -176,7 +176,7 @@ html {
 @media (min-width: 1024px) {
   .m-card_gridbox_column_list {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
     overflow-y: visible;
   }
 }
