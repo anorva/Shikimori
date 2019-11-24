@@ -159,6 +159,7 @@ html {
   display: grid;
 }
 
+/* Я вам запрещаю делать перенос строки */
 .m-card_gridbox_column br {
   display: none;
 }
