@@ -168,6 +168,7 @@ html {
 .m-card_gridbox_column_list {
   display: flex;
   flex-wrap: nowrap;
+  align-items: flex-start;
   overflow-y: auto;
 }
 
