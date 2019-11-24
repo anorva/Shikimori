@@ -35,7 +35,7 @@ html {
 
 /* Вкладки */
 .m-tabs {
-  --t-about-me: #9575CD;
+  --t-collections: #9575CD;
   --t-anime: #7986CB;
   --t-manga: #64B5F6;
   --t-characters: #81C784;
@@ -79,7 +79,7 @@ html {
 
 .m-tabs [data-tab-switch]:nth-child(1):active,
 .m-tabs [data-tab-switch].active:nth-child(1) {
-  color: var(--t-about-me);
+  color: var(--t-collections);
 }
 
 .m-tabs [data-tab-switch]:nth-child(2):active,
@@ -140,6 +140,7 @@ html {
   color: var(--color-text-hint);
 }
 
+/* Раздел коллекций */
 .m-card_gridbox {
   display: grid;
   align-items: flex-start;
@@ -153,10 +154,12 @@ html {
   }
 }
 
+/* Колонки коллекций */
 .m-card_gridbox_column {
   display: grid;
 }
 
+/* Список коллекций */
 .m-card_gridbox_column_list {
   display: flex;
   flex-wrap: nowrap;
@@ -262,11 +265,6 @@ html {
 }
 
 /* Фикс */
-.m-card > .b-link {
-  text-decoration: none !important;
-}
-
-/* Фикс 2 */
 .m-card_hint_section.user-defined.active ~ .b-link {
   visibility: hidden;
   opacity: 0;
@@ -786,7 +784,8 @@ html {
   letter-spacing: -1px;
 }
 
-.b-catalog_entry > a:hover {
+.b-catalog_entry > a:hover,
+.m-card > .b-link {
   text-decoration: none !important;
 }
 
