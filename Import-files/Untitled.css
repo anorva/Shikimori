@@ -369,6 +369,11 @@ html {
 
 /* Регулировка изображений */
 
+/* Постапокалипсис в манге */
+.m-card > .b-link[href*='collections/528-'] > .m-card_img > img.b-poster {
+  object-position: center 30%;
+}
+
 /* Traps & Reverse Traps */
 .m-card > .b-link[href*='collections/205-'] > .m-card_img > img.b-poster {
   object-position: center 5%;
@@ -376,17 +381,7 @@ html {
 
 /* Веснушки */
 .m-card > .b-link[href*='collections/2338-'] > .m-card_img > img.b-poster {
-  object-position: center 25%;
-}
-
-/* Постапокалипсис в манге */
-.m-card > .b-link[href*='collections/528-'] > .m-card_img > img.b-poster {
-  object-position: center 25%;
-}
-
-/* Деревня в аниме */
-.m-card > .b-link[href*='collections/673-'] > .m-card_img > img.b-poster {
-  object-position: center 75%;
+  object-position: center 60%;
 }
 
 /* Персонажи-мемы */
