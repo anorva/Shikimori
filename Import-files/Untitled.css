@@ -157,6 +157,7 @@ html {
 /* Колонки коллекций */
 .m-card_gridbox_column {
   display: grid;
+  align-items: flex-start;
 }
 
 /* Я вам запрещаю делать перенос строки */
@@ -186,6 +187,7 @@ html {
   display: flex;
   flex-direction: column-reverse;
   flex-shrink: 0;
+  align-self: flex-start;
   overflow: hidden;
   width: 15rem;
   margin: 0 0.375rem 0 0;
