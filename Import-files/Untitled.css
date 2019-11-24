@@ -389,6 +389,11 @@ html {
   object-position: center 75%;
 }
 
+/* Персонажи-мемы */
+.m-card > .b-link[href*='collections/2122-'] > .m-card_img > img.b-poster {
+  object-position: center 10%;
+}
+
 /* Ripple */
 @keyframes m-ripple {
   0% {
