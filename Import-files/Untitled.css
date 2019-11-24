@@ -165,44 +165,6 @@ html {
   display: none;
 }
 
-/* Спойлер в разработке */
-.m-card_gridbox_spoiler {
-  display: grid;
-  grid-gap: 1rem;
-}
-
-.m-card_gridbox_spoiler_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.375rem;
-  border-radius: 3px;
-  line-height: 1.5rem;
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--color-text-hint);
-  transition: background-color 160ms ease-in-out;
-  cursor: pointer;
-}
-
-.m-card_gridbox_spoiler_button:hover {
-  background-color: var(--color-overlay-text-hovered);
-}
-
-.m-card_gridbox_spoiler.user-defined.active > .m-card_gridbox_spoiler_button,
-.m-card_gridbox_spoiler_button:active {
-  background-color: var(--color-overlay-text-pressed);
-}
-
-.m-card_gridbox_spoiler_content {
-  display: grid;
-  grid-gap: 1rem;
-}
-
-.m-card_gridbox_spoiler.user-defined:not(.active) > .m-card_gridbox_spoiler_content {
-  display: none;
-}
-
 /* Список коллекций */
 .m-card_gridbox_column_list {
   display: flex;
