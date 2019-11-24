@@ -331,6 +331,11 @@ html {
   object-position: center 25%;
 }
 
+/* Гадкий утёнок */
+.m-card > .b-link[href*='collections/2513-'] > .m-card_img > img.b-poster {
+  object-position: center 25%;
+}
+
 /* Ripple */
 @keyframes m-ripple {
   0% {
