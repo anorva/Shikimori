@@ -786,7 +786,7 @@ html {
 }
 
 .b-catalog_entry > a:hover,
-.m-card > .b-link {
+.md--m-card > .b-link {
   text-decoration: none !important;
 }
 
