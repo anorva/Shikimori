@@ -172,13 +172,16 @@ html {
   align-self: flex-start;
   overflow: hidden;
   width: 15rem;
-  margin: 0 0.375rem 0 0;
   border-radius: 0.25rem;
   border: 1px solid var(--color-border);
   background-color: var(--color-background-dialog);
   -webkit-tap-highlight-color: transparent;
   user-select: none;
   transition: box-shadow 160ms ease-in-out;
+}
+
+.m-card:not(:last-child) {
+  margin-right: 0.375rem;
 }
 
 @media (min-width: 800px) {
