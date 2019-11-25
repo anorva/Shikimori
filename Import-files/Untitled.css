@@ -157,8 +157,8 @@ html {
 @media (min-width: 1024px) {
   .m-card_list {
     display: grid;
-    grid-gap: 0.375rem;
-    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
     overflow-y: visible;
   }
 }
@@ -226,6 +226,12 @@ html {
   padding: 0.875rem;
 }
 
+@media (min-width: 1024px) {
+  .m-card_primary_section {
+    padding: 1rem;
+  }
+}
+
 /* Название коллекции */
 .m-card_primary_title {
   overflow: hidden;
@@ -237,6 +243,13 @@ html {
   color: var(--color-text-primary);
 }
 
+@media (min-width: 1024px) {
+  .m-card_primary_title {
+    line-height: 2rem;
+    font-size: 1rem;
+  }
+}
+
 /* Автор коллекции */
 .m-card_primary_subhead {
   overflow: hidden;
@@ -246,6 +259,12 @@ html {
   font-size: 0.75rem;
   font-weight: normal;
   color: var(--color-text-hint);
+}
+
+@media (min-width: 1024px) {
+  .m-card_primary_subhead {
+    font-size: 0.875rem;
+  }
 }
 
 /* Блок описания */
@@ -303,6 +322,12 @@ html {
   font-size: 0.875rem;
   font-weight: normal;
   color: var(--color-text-primary);
+}
+
+@media (min-width: 1024px) {
+  .m-card_hint_panel_text {
+    font-size: 1rem;
+  }
 }
 
 /* Скроллбар для всплывашки */
