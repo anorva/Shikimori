@@ -372,7 +372,10 @@ html {
 /* Регулировка изображений */
 
 /* Постапокалипсис в манге */
-.md--m-card > .b-link[href*='collections/528-'] > .md--m-card_media > img.b-poster,
+.md--m-card > .b-link[href*='collections/528-'] > .md--m-card_media > img.b-poster {
+  object-position: center 30%;
+}
+
 /* Гадкий утёнок */
 .md--m-card > .b-link[href*='collections/2513-'] > .md--m-card_media > img.b-poster {
   object-position: center 30%;
@@ -381,6 +384,11 @@ html {
 /* Traps & Reverse Traps */
 .md--m-card > .b-link[href*='collections/205-'] > .md--m-card_media > img.b-poster {
   object-position: center 5%;
+}
+
+/* Веснушки */
+.md--m-card > .b-link[href*='collections/2338-'] > .md--m-card_media > img.b-poster {
+  object-position: center 60%;
 }
 
 /* Постеры */
