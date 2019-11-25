@@ -162,19 +162,19 @@ html {
 }
 
 /* Я вам запрещаю делать перенос строки */
-.md--m-card__list br {
+.md--m-card__gridbox_column_list br {
   display: none;
 }
 
 /* Список коллекций */
-.md--m-card__list {
+.md--m-card__gridbox_column_list {
   display: flex;
   flex-wrap: nowrap;
   overflow-y: auto;
 }
 
 @media (min-width: 800px) {
-  .md--m-card__list {
+  .md--m-card__gridbox_column_list {
     display: grid;
     grid-row-gap: 24px;
     overflow-y: visible;
