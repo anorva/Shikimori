@@ -154,7 +154,7 @@ html {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .m-card_list {
     display: grid;
     grid-gap: 1.5rem;
@@ -181,7 +181,7 @@ html {
   transition: box-shadow 160ms ease-in-out;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .m-card {
     width: auto;
     margin: 0;
@@ -226,7 +226,7 @@ html {
   padding: 0.875rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .m-card_primary_section {
     padding: 1rem;
   }
@@ -243,7 +243,7 @@ html {
   color: var(--color-text-primary);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .m-card_primary_title {
     line-height: 2rem;
     font-size: 1rem;
@@ -261,7 +261,7 @@ html {
   color: var(--color-text-hint);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .m-card_primary_subhead {
     font-size: 0.875rem;
   }
@@ -324,7 +324,7 @@ html {
   color: var(--color-text-primary);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .m-card_hint_panel_text {
     padding: 1rem;
     font-size: 1rem;
