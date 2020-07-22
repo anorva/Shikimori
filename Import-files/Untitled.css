@@ -447,20 +447,6 @@ html {
   content: '9.80';
 }
 
-/* Nisekoi */
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/z31499-'] .name-en,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/z31499-'] .name-ru {
-  opacity: 1;
-  visibility: visible;
-}
-
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/z31499-'] .name-en::before,
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/z31499-'] .name-en::after,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/z31499-'] .name-ru::before,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/z31499-'] .name-ru::after {
-  content: '8.55';
-}
-
 /* Tokyo Ghoul */
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-en,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-ru {
@@ -529,20 +515,6 @@ html {
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/436-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/436-'] .name-ru::after {
   content: '8.50';
-}
-
-/* Kodomo no Jikan */
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/582-'] .name-en,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/582-'] .name-ru {
-  opacity: 1;
-  visibility: visible;
-}
-
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/582-'] .name-en::before,
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/582-'] .name-en::after,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/582-'] .name-ru::before,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/582-'] .name-ru::after {
-  content: '8.55';
 }
 
 /* Koroshiya 1 */
