@@ -472,7 +472,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/33327-'] .name-ru::after {
-  content: '9.00';
+  content: '9.20';
 }
 
 /* Tokyo Ghoul:re */
@@ -486,7 +486,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/81117-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/81117-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/81117-'] .name-ru::after {
-  content: '9.00';
+  content: '9.20';
 }
 
 /* Gantz */
