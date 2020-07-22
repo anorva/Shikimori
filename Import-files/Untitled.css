@@ -458,7 +458,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/z31499-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/z31499-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/z31499-'] .name-ru::after {
-  content: '9.00';
+  content: '8.55';
 }
 
 /* Tokyo Ghoul */
@@ -542,7 +542,7 @@ html {
 [data-localized_names='ru'] .about .b-catalog_entry > a[href*='mangas/582-'] .name-en::after,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/582-'] .name-ru::before,
 [data-localized_names='en'] .about .b-catalog_entry > a[href*='mangas/582-'] .name-ru::after {
-  content: '9.60';
+  content: '8.55';
 }
 
 /* Koroshiya 1 */
