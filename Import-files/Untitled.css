@@ -77,29 +77,9 @@ html {
   cursor: default;
 }
 
-.m-tabs [data-tab-switch]:nth-child(1):active,
-.m-tabs [data-tab-switch].active:nth-child(1) {
-  color: var(--t-collections);
-}
-
-.m-tabs [data-tab-switch]:nth-child(2):active,
-.m-tabs [data-tab-switch].active:nth-child(2) {
-  color: var(--t-anime);
-}
-
-.m-tabs [data-tab-switch]:nth-child(3):active,
-.m-tabs [data-tab-switch].active:nth-child(3) {
-  color: var(--t-manga);
-}
-
-.m-tabs [data-tab-switch]:nth-child(4):active,
-.m-tabs [data-tab-switch].active:nth-child(4) {
-  color: var(--t-characters);
-}
-
-.m-tabs [data-tab-switch]:nth-child(5):active,
-.m-tabs [data-tab-switch].active:nth-child(5) {
-  color: var(--t-people);
+.m-tabs [data-tab-switch]:active,
+.m-tabs [data-tab-switch].active {
+  color: var(--color-primary);
 }
 
 /* Иконка переключателя */
