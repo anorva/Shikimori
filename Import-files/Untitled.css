@@ -206,8 +206,7 @@ html {
   letter-spacing: -1px;
 }
 
-.b-catalog_entry > a:hover,
-.md--m-card > .b-link {
+.b-catalog_entry > a:hover {
   text-decoration: none !important;
 }
 
