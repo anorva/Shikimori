@@ -1,6 +1,6 @@
 [div=m-tabs to-process data-dynamic=tabs]
   [div]
-    [div=active data-tab-switch data-icon=collections][b]Коллекции[/b][/div]
+    [div=active data-tab-switch data-icon=account_circle][b]Обо мне[/b][/div]
     [div data-tab-switch data-icon=ondemand_video][b]Аниме[/b][/div]
     [div data-tab-switch data-icon=photo_album][b]Манга[/b][/div]
     [div data-tab-switch data-icon=face][b]Персонажи[/b][/div]
