@@ -35,11 +35,6 @@ html {
 
 /* Вкладки */
 .m-tabs {
-  --t-collections: #9575CD;
-  --t-anime: #7986CB;
-  --t-manga: #64B5F6;
-  --t-characters: #81C784;
-  --t-people: #FFB74D;
   margin-bottom: 1rem;
 }
 
