@@ -199,56 +199,6 @@ html {
   font-size: 0.875rem !important;
 }
 
-[data-localized_names='ru'] .about .b-catalog_entry .name-en,
-[data-localized_names='en'] .about .b-catalog_entry .name-ru {
-  border-radius: 2px;
-  top: 6px;
-  left: 6px;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-@media (min-width: 481px) {
-  [data-localized_names='ru'] .about .b-catalog_entry .name-en,
-  [data-localized_names='en'] .about .b-catalog_entry .name-ru {
-    left: 6px;
-  }
-}
-  
-[data-localized_names='ru'] .about .b-catalog_entry .name-en::before,
-[data-localized_names='en'] .about .b-catalog_entry .name-ru::before {
-  display: none;
-}
-
-/* Оценки (Аниме) */
-
-/* JoJo no Kimyou na Bouken (TV) */
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-en,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-ru {
-  opacity: 1;
-  visibility: visible;
-}
-
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-en::before,
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-en::after,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-ru::before,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/14719-'] .name-ru::after {
-  content: '8.00';
-}
-
-/* JoJo no Kimyou na Bouken Part 3: Stardust Crusaders */
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-en,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-ru {
-  opacity: 1;
-  visibility: visible;
-}
-
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-en::before,
-[data-localized_names='ru'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-en::after,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-ru::before,
-[data-localized_names='en'] .about .b-catalog_entry > a[href*='animes/20899-'] .name-ru::after {
-  content: '9.20';
-}
-
 /* Правки */
 .p-animes-show .cc-related-authors > .c-column .b-options-floated a, 
 .p-mangas-show .cc-related-authors > .c-column .b-options-floated a, 
