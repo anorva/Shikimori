@@ -23,6 +23,10 @@ html {
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 24%);
 }
 
+.l-top_menu-v2 .logo-container .glyph {
+  display: none;
+}
+
 /* Никнейм */
 .p-profiles .profile-head .c-brief header h1 {
   font-family: 'Mansalva', cursive;
