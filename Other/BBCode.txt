@@ -20,7 +20,7 @@
               [div=md--m-card_hint_section_button data-icon=more_horiz][/div]
               [div=md--m-card_hint_section_content]
                 [div=md--m-card_hint_section_button data-icon=close][/div]
-                [div=md--m-card_hint_section_content_text]Описание отсутствует.[/div]
+                [div=md--m-card_hint_section_content_text]Трапы и реверс трапы в аниме (не из яоя/сёнен-ая).[/div]
               [/div]
             [/div]
             [url=https://shikimori.one/collections/205-traps-reverse-traps-in-anime-ostorozhno-spoylery]
