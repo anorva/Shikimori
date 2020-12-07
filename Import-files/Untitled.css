@@ -28,7 +28,9 @@ html {
 }
 
 /* Никнейм */
-.p-profiles .profile-head .c-brief header h1 {
+/* .p-profiles .profile-head .c-brief header h1, */
+.l-top_menu-v2 .logo-container::after {
+  content: 'Shikimori';
   font-family: 'Mansalva', cursive;
   font-size: 1.5rem;
   font-weight: 400;
