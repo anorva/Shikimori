@@ -235,7 +235,16 @@ html {
 }
 
 /* Изображение */
-.md--m-card_media > img.b-poster {
+.md--m-card_media > .b-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.md--m-card_media > .b-image > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -381,7 +390,7 @@ html {
 /* Регулировка изображений */
 
 /* Traps & Reverse Traps */
-.md--m-card > .b-link[href*='collections/205-'] > .md--m-card_media > img.b-poster {
+.md--m-card > .b-link[href*='collections/205-'] > .md--m-card_media > .b-image > img {
   object-position: center 5%;
 }
 
