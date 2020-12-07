@@ -1,4 +1,4 @@
-[div=m-tabs to-process data-dynamic=tabs]
+[div=u-tabs --ripple --centered to-process data-dynamic=tabs]
   [div]
     [div=active data-tab-switch data-icon=account_circle][b]Обо мне[/b][/div]
     [div data-tab-switch data-icon=ondemand_video][b]Аниме[/b][/div]
