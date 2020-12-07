@@ -393,7 +393,7 @@ html {
 
 /* Traps & Reverse Traps */
 .md--m-card > .b-link[href*='collections/205-'] > .md--m-card_media > .b-image > img {
-  object-position: center 5%;
+  object-position: center 10%;
 }
 
 /* Постеры */
