@@ -8,7 +8,7 @@
     [div data-tab-switch data-icon=people][b]Люди[/b][/div]
   [/div]
   [div data-tab]
-    [div=m-headline]...[/div]
+    Когда-нибудь снова начну смотреть аниме
   [/div]
   [div=hidden data-tab]
     [div=md--m-card__gridbox]
