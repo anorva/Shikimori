@@ -27,10 +27,16 @@ html {
   display: none;
 }
 
+@media (min-width: 960px) {
+  #profiles_show .b-to-top::before {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 24%);
+  }
+}
+
 /* Обложка */
 .p-profiles .profile-head::before {
-  background-position: center 30% !important;
-  background-color: #2d3339;
+  background-position: center 14% !important;
+  background-color: #2f363c;
   background-blend-mode: lighten;
 }
 
