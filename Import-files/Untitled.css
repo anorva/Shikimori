@@ -27,6 +27,13 @@ html {
   display: none;
 }
 
+/* Обложка */
+.p-profiles .profile-head::before {
+  background-position: center 30% !important;
+  background-color: #2d3339;
+  background-blend-mode: lighten;
+}
+
 /* Никнейм */
 /* .p-profiles .profile-head .c-brief header h1, */
 .l-top_menu-v2 .logo-container::after {
