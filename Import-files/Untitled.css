@@ -80,7 +80,7 @@ html {
   -webkit-tap-highlight-color: transparent;
   user-select: none;
   cursor: pointer;
-  transition: color 160ms ease-in-out;
+  transition: color 175ms ease-in-out;
 }
 
 .m-tabs [data-tab-switch]:first-child {
