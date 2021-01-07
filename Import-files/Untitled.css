@@ -39,9 +39,6 @@ html {
 
 /* Вкладки */
 .m-tabs {
-  --t-about-me: #9575CD;
-  --t-characters: #64B5F6;
-  --t-people: #FF4D4D;
   margin-bottom: 1rem;
 }
 
@@ -82,31 +79,6 @@ html {
 .m-tabs [data-tab-switch]:active,
 .m-tabs [data-tab-switch].active {
   color: var(--color-primary);
-}
-
-.m-tabs [data-tab-switch]:nth-child(1):active,
-.m-tabs [data-tab-switch].active:nth-child(1) {
-  color: var(--t-about-me);
-}
-
-.m-tabs [data-tab-switch]:nth-child(2):active,
-.m-tabs [data-tab-switch].active:nth-child(2) {
-  color: var(--color-primary);
-}
-
-.m-tabs [data-tab-switch]:nth-child(3):active,
-.m-tabs [data-tab-switch].active:nth-child(3) {
-  color: var(--color-accent);
-}
-
-.m-tabs [data-tab-switch]:nth-child(4):active,
-.m-tabs [data-tab-switch].active:nth-child(4) {
-  color: var(--t-characters);
-}
-
-.m-tabs [data-tab-switch]:nth-child(5):active,
-.m-tabs [data-tab-switch].active:nth-child(5) {
-  color: var(--t-people);
 }
 
 /* Иконка переключателя */
