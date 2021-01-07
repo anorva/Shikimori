@@ -80,7 +80,7 @@ html {
   -webkit-tap-highlight-color: transparent;
   user-select: none;
   cursor: pointer;
-  transition: color 200ms ease-in-out;
+  transition: color 160ms ease-in-out;
 }
 
 .m-tabs [data-tab-switch]:first-child {
@@ -135,11 +135,6 @@ html {
   display: block;
   margin: 0 auto;
   padding: 8px;
-  transition: transform 200ms ease-in-out;
-}
-
-.m-tabs [data-tab-switch]:not(.active):hover::before {
-  transform: translateY(-0.25rem);
 }
 
 /* Название переключателя */
