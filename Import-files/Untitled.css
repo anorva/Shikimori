@@ -153,6 +153,15 @@ img {
   transform: scale(1.03);
 }
 
+/* Обложка в всплывающем окне */
+.b-catalog_entry-tooltip .image {
+  display: none;
+}
+
+.b-catalog_entry-tooltip .inner.offset {
+  margin-left: 0;
+}
+
 /* Иконка статуса аниме */
 .b-achievement.is-badge:before,
 .b-catalog_entry .image-decor::before {
