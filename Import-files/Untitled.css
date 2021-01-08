@@ -149,6 +149,10 @@ html {
 }
 
 /* Кнопка 'Добавить в список' */
+.b-add_to_list .trigger {
+  border: 1px solid var(--color-border) !important;
+}
+
 .b-add_to_list .trigger,
 .b-add_to_list .option {
   background-color: var(--color-surface) !important;
