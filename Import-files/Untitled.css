@@ -149,62 +149,12 @@ html {
   transform: scale(1.03);
 }
 
-/* Кнопка 'Добавить в список' */
-.b-add_to_list .trigger,
-.b-add_to_list .option {
-  transition: background-color 160ms cubic-bezier(0.4, 0, 0.6, 1);
-  background-color: var(--color-surface) !important;
-}
-
-.b-add_to_list .trigger:hover,
-.b-add_to_list .option:hover {
-  background-color: var(--color-surface-hover) !important;
-}
-
-.b-add_to_list .trigger:active,
-.b-add_to_list .option:active {
-  background-color: var(--color-surface-active) !important;
-}
-
-.b-add_to_list .trigger-arrow,
-.b-add_to_list .trigger .add-trigger,
-.b-add_to_list .trigger .edit-trigger {
-  background-color: transparent !important;
-}
-
-.b-add_to_list .option.remove-trigger:hover {
-  background-color: rgb(255 65 54 / 12%) !important;
-}
-
-.b-add_to_list .option.remove-trigger:active {
-  background-color: rgb(255 65 54 / 16%) !important;
-}
-
-.b-add_to_list .expanded-options {
-  margin-top: 0.3125rem;
-  border-radius: var(--border-rounded);
-}
-
-.b-add_to_list .expanded-options .option::before {
-  display: none;
-}
-
-.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .expanded-options {
-  max-width: 180px;
-  margin-top: 0.3125rem;
-}
-
-.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .option {
-  max-width: none !important;
-}
-
 /* Иконка статуса аниме */
 .b-catalog_entry .image-decor::before {
   box-shadow: none !important;
   text-shadow: 0 0 2px rgb(0 0 0 / 92%);
   background-color: transparent !important;
   color: #FAFAFA !important;
-  display: none !important;
 }
 
 /* Правки */
@@ -216,6 +166,14 @@ html {
 
 .b-catalog_entry > a:hover {
   text-decoration: none !important;
+}
+
+.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .expanded-options {
+  max-width: 180px;
+}
+
+.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .option {
+  max-width: none !important;
 }
 
 /* Скроллбар */
