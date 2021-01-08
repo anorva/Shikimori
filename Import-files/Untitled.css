@@ -155,17 +155,30 @@ html {
 }
 
 .b-add_to_list .trigger:hover,
-.b-add_to_list .option.add-trigger:hover {
+.b-add_to_list .option:hover {
   background-color: var(--color-surface-hover) !important;
+}
+
+.b-add_to_list .trigger:active,
+.b-add_to_list .option:active {
+  background-color: var(--color-surface-active) !important;
 }
 
 .b-add_to_list .option.remove-trigger:hover {
   background-color: rgb(255 65 54 / 12%) !important;
 }
 
-.b-add_to_list .option {
+.b-add_to_list .option.remove-trigger:active {
+  background-color: rgb(255 65 54 / 16%) !important;
+}
+
+.b-add_to_list .expanded-options {
   margin-top: 0.3125rem;
   border-radius: var(--border-rounded);
+}
+
+.b-add_to_list .expanded-options .option::before {
+  display: none;
 }
 
 /* Правки */
