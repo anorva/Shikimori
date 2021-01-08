@@ -186,17 +186,7 @@ html {
 }
 
 /* Иконка статуса аниме */
-.b-catalog_entry.planned .image-decor::before, 
-.b-catalog_entry.watching .image-decor::before, 
-.b-catalog_entry.completed .image-decor::before, 
-.b-catalog_entry.rewatching .image-decor::before, 
-.b-catalog_entry.on_hold .image-decor::before, 
-.b-catalog_entry.dropped .image-decor::before {
-  top: 0 !important;
-  left: auto !important;
-  right: 0 !important;
-  bottom: auto !important;
-  border-radius: 0 !important;
+.b-catalog_entry .image-decor::before {
   box-shadow: none !important;
   text-shadow: 0 0 2px rgb(0 0 0 / 92%);
   background-color: transparent !important;
