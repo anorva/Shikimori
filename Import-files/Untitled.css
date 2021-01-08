@@ -198,6 +198,10 @@ html {
   margin-top: 0.3125rem;
 }
 
+.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .option {
+  max-width: none !important;
+}
+
 /* Скроллбар */
 body::-webkit-scrollbar-button:vertical:decrement {
   background-color: var(--color-menu-background);
