@@ -45,7 +45,6 @@ img {
 /* Вкладки */
 .m-tabs {
   --mt-color: #c4312e;
-  --mt-overlay: rgb(196 49 46 / 16%);
   margin-bottom: 1rem;
 }
 
@@ -108,33 +107,6 @@ img {
 /* Содержимое вкладок */
 .m-tabs [data-tab] {
   padding-top: 16px;
-}
-
-/* Ripple */
-.m-tabs [data-tab-switch] {
-  position: relative;
-}
-
-.m-tabs [data-tab-switch]::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 72%;
-  padding-top: 72%;
-  background: var(--mt-overlay);
-  border-radius: 50%;
-  opacity: 0;
-  transform: translate3d(-50%, -50%, 0);
-  pointer-events: none;
-}
-
-.m-tabs [data-tab-switch]:not(.active):hover::after {
-  animation: 1s switch-focus--vertical ease infinite;
-}
-
-.m-tabs [data-tab-switch].active::after {
-  animation: switch-tap--vertical .24s cubic-bezier(0.55, 0.06, 0.68, 0.19);
 }
 
 /* Заголовки */
