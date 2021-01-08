@@ -193,6 +193,31 @@ html {
   color: #FAFAFA !important;
 }
 
+.b-catalog_entry .image-decor {
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 160ms ease-in-out;
+}
+
+.b-catalog_entry.planned:hover .image-decor {
+  box-shadow: 0 0 0 2px var(--color-info);
+}
+.b-catalog_entry.watching:hover .image-decor {
+  box-shadow: 0 0 0 2px var(--color-info);
+}
+.b-catalog_entry.rewatching:hover .image-decor {
+  box-shadow: 0 0 0 2px var(--color-info);
+}
+.b-catalog_entry.completed:hover .image-decor {
+  box-shadow: 0 0 0 2px var(--color-success);
+}
+.b-catalog_entry.on_hold:hover .image-decor {
+  box-shadow: 0 0 0 2px #757575;
+}
+.b-catalog_entry.dropped:hover .image-decor {
+  box-shadow: 0 0 0 2px var(--color-danger);
+}
+
 /* Правки */
 .p-animes-show .cc-related-authors > .c-column .b-options-floated a, 
 .p-mangas-show .cc-related-authors > .c-column .b-options-floated a, 
@@ -200,8 +225,7 @@ html {
   letter-spacing: -1px;
 }
 
-.b-catalog_entry > a:hover,
-.md--m-card > .b-link {
+.b-catalog_entry > a:hover {
   text-decoration: none !important;
 }
 
