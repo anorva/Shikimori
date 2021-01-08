@@ -148,6 +148,26 @@ html {
   transform: scale(1.03);
 }
 
+/* Кнопка 'Добавить в список' */
+.b-add_to_list .trigger,
+.b-add_to_list .option {
+  background-color: var(--color-surface) !important;
+}
+
+.b-add_to_list .trigger:hover,
+.b-add_to_list .option.add-trigger:hover {
+  background-color: var(--color-surface-hover) !important;
+}
+
+.b-add_to_list .option.remove-trigger:hover {
+  background-color: rgb(255 65 54 / 12%) !important;
+}
+
+.b-add_to_list .option {
+  margin-top: 0.3125rem;
+  border-radius: var(--border-rounded);
+}
+
 /* Правки */
 .p-animes-show .cc-related-authors > .c-column .b-options-floated a, 
 .p-mangas-show .cc-related-authors > .c-column .b-options-floated a, 
