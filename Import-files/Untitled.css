@@ -13,11 +13,14 @@ html {
   font-size: 16px;
 }
 
+img {
+  opacity: 90%;
+}
+
 /* Ширина страницы */
 .l-page {
   max-width: 1000px !important;
   background-color: transparent;
-  opacity: 90%;
 }
 
 /* Верхнее меню */
@@ -153,6 +156,7 @@ html {
 /* Иконка статуса аниме */
 .b-achievement.is-badge:before,
 .b-catalog_entry .image-decor::before {
+  box-shadow: none !important;
   background-color: rgb(17 17 17 / 80%) !important;
   color: rgb(255 255 255 / 72%) !important;
 }
