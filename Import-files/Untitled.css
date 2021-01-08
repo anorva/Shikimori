@@ -185,6 +185,12 @@ html {
   display: none;
 }
 
+/* Иконка статуса аниме */
+.b-catalog_entry .image-decor::before {
+  box-shadow: none;
+  background-color: rgb(0 0 0 / 60%) !important;
+}
+
 /* Правки */
 .p-animes-show .cc-related-authors > .c-column .b-options-floated a, 
 .p-mangas-show .cc-related-authors > .c-column .b-options-floated a, 
