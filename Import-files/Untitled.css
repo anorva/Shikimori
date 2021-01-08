@@ -187,8 +187,13 @@ html {
 
 /* Иконка статуса аниме */
 .b-catalog_entry .image-decor::before {
+  top: 0 !important;
+  left: auto !important;
+  right: 0 !important;
+  bottom: auto !important;
   box-shadow: none !important;
-  background-color: rgb(0 0 0 / 60%) !important;
+  text-shadow: 0 0 2px rgb(0 0 0 / 92%);
+  background-color: transparent !important;
   color: #FAFAFA !important;
 }
 
