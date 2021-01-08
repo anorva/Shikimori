@@ -16,6 +16,7 @@ html {
 /* Ширина страницы */
 .l-page {
   max-width: 1000px !important;
+  background-color: transparent;
   opacity: 90%;
 }
 
