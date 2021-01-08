@@ -13,10 +13,6 @@ html {
   font-size: 16px;
 }
 
-img {
-  opacity: 90%;
-}
-
 /* Ширина страницы */
 .l-page {
   max-width: 1000px !important;
@@ -32,19 +28,8 @@ img {
   display: none;
 }
 
-/* Никнейм */
-/* .p-profiles .profile-head .c-brief header h1, */
-.l-top_menu-v2 .logo-container::after {
-  content: 'Shikimori';
-  font-family: 'Mansalva', cursive;
-  font-size: 1.5rem;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
 /* Вкладки */
 .m-tabs {
-  --mt-color: #c4312e;
   margin-bottom: 1rem;
 }
 
@@ -84,7 +69,7 @@ img {
 
 .m-tabs [data-tab-switch]:active,
 .m-tabs [data-tab-switch].active {
-  color: var(--mt-color);
+  color: #c4312e;
 }
 
 /* Иконка переключателя */
@@ -208,4 +193,9 @@ body::-webkit-scrollbar-thumb:hover {
 
 body::-webkit-scrollbar-thumb:active {
   background: var(--color-primary-pressed);
+}
+
+/* Прозрачность всех изображений */
+img {
+  opacity: 90%;
 }
