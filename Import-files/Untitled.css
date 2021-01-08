@@ -151,11 +151,10 @@ html {
 }
 
 /* Иконка статуса аниме */
+.b-achievement.is-badge:before,
 .b-catalog_entry .image-decor::before {
-  box-shadow: none !important;
-  text-shadow: 0 0 2px rgb(0 0 0 / 92%);
-  background-color: transparent !important;
-  color: #FAFAFA !important;
+  background-color: rgb(17 17 17 / 80%) !important;
+  color: rgb(255 255 255 / 72%) !important;
 }
 
 /* Правки */
@@ -167,14 +166,6 @@ html {
 
 .b-catalog_entry > a:hover {
   text-decoration: none !important;
-}
-
-.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .expanded-options {
-  max-width: 180px;
-}
-
-.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .option {
-  max-width: none !important;
 }
 
 /* Скроллбар */
