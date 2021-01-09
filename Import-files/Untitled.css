@@ -123,45 +123,27 @@ html {
   color: var(--color-text-hint);
 }
 
-/* Раздел коллекций */
+/* Раздел карточек */
 .md--m-card__gridbox {
-  display: grid;
-  grid-gap: 24px;
+  display: flex;
+  flex-wrap: nowrap;
   align-items: flex-start;
+  overflow-y: auto;
   margin-bottom: 1rem;
 }
 
 @media (min-width: 800px) {
   .md--m-card__gridbox {
+    display: grid;
+    grid-gap: 24px;
     grid-template-columns: repeat(3, 1fr);
+    overflow-y: visible;
   }
-}
-
-/* Колонки коллекций */
-.md--m-card__gridbox_column {
-  display: grid;
-  align-items: flex-start;
 }
 
 /* Я вам запрещаю делать перенос строки */
-.md--m-card__gridbox_column_list br {
+.md--m-card__gridbox br {
   display: none;
-}
-
-/* Список коллекций */
-.md--m-card__gridbox_column_list {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-  overflow-y: auto;
-}
-
-@media (min-width: 800px) {
-  .md--m-card__gridbox_column_list {
-    display: grid;
-    grid-row-gap: 24px;
-    overflow-y: visible;
-  }
 }
 
 /* Карточка */
