@@ -176,6 +176,17 @@ html {
   }
 }
 
+.md--m-card::before {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  margin: 0;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: rgb(17 17 17 / 80%) !important;
+  color: rgb(255 255 255 / 72%) !important;
+}
+
 /* Контейнер изображения */
 .md--m-card_media {
   position: relative;
