@@ -185,6 +185,8 @@ html {
   border-radius: 50%;
   background-color: rgb(17 17 17 / 80%) !important;
   color: rgb(255 255 255 / 72%) !important;
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* Контейнер изображения */
