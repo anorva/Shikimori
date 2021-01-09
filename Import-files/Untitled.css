@@ -223,6 +223,7 @@ html {
 .md--m-card_media > .b-image > img {
   object-fit: cover;
   object-position: center;
+  border-radius: 0;
 }
 
 /* Блок названия */
@@ -454,5 +455,5 @@ body::-webkit-scrollbar-thumb:active {
 
 /* Прозрачность всех изображений */
 img {
-  opacity: 90%;
+  opacity: 90% !important;
 }
