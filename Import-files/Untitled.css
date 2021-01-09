@@ -16,7 +16,6 @@ html {
 /* Ширина страницы */
 .l-page {
   max-width: 1000px !important;
-  background-color: transparent;
 }
 
 /* Верхнее меню */
@@ -88,17 +87,9 @@ html {
   color: #c4312e;
 }
 
-/* Иконка переключателя */
-.m-tabs [data-tab-switch]::before {
-  display: block;
-  margin: 0 auto;
-  padding: 8px;
-}
-
 /* Название переключателя */
 .m-tabs [data-tab-switch] > strong {
   margin: 0 auto;
-  /* padding: 4px 0 8px 0; */
   padding: 8px 0;
   white-space: nowrap;
   line-height: 1rem;
@@ -176,6 +167,7 @@ html {
   }
 }
 
+/* Иконка */
 .md--m-card::before {
   position: absolute;
   top: 6px;
@@ -355,10 +347,11 @@ html {
 
 /* Регулировка изображений */
 
-/* Traps & Reverse Traps */
+/*
 .md--m-card > .b-link[href*='collections/205-'] > .md--m-card_media > .b-image > img {
   object-position: center 10%;
 }
+*/
 
 /* Постеры */
 .about .b-catalog_entry .image-cutter {
