@@ -7,7 +7,6 @@
     [div data-tab-switch][b]Люди[/b][/div]
   [/div]
   [div data-tab]
-    [div=b-nothing_here]Когда-нибудь снова начну смотреть аниме[/div]
     [div=m-headline]Статьи[/div]
     [div=md--m-card__gridbox]
       [div=md--m-card__gridbox_column]
