@@ -148,22 +148,21 @@ html {
   width: 240px;
   margin-right: 6px;
   border-radius: 4px;
-  border: 1px solid var(--color-border);
   background-color: var(--color-background-dialog);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
   -webkit-tap-highlight-color: transparent;
   user-select: none;
-  transition: box-shadow 160ms ease-in-out;
+  transition: box-shadow 135ms 0ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.md--m-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.16);
 }
 
 @media (min-width: 800px) {
   .md--m-card {
     width: auto;
     margin: 0;
-    border: 0;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
-  }
-  .md--m-card:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.16);
   }
 }
 
@@ -175,8 +174,8 @@ html {
   margin: 0;
   padding: 8px;
   border-radius: 50%;
-  background-color: rgb(17 17 17 / 80%) !important;
-  color: rgb(255 255 255 / 72%) !important;
+  background-color: rgb(17 17 17 / 80%);
+  color: rgb(255 255 255 / 72%);
   pointer-events: none;
   z-index: 1;
 }
@@ -215,54 +214,23 @@ html {
 
 /* Блок названия */
 .md--m-card_primary_section {
-  display: flex;
-  flex-direction: column;
-  padding: 14px;
+  padding: 16px;
 }
 
-@media (min-width: 800px) {
-  .md--m-card_primary_section {
-    padding: 16px;
-  }
-}
-
-/* Название коллекции */
+/* Название */
 .md--m-card_primary_section_title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  line-height: 1.75rem;
-  font-size: 0.875rem;
+  line-height: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--color-text-primary);
 }
 
-@media (min-width: 800px) {
-  .md--m-card_primary_section_title {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    white-space: normal;
-    line-height: 2rem;
-    font-size: 1rem;
-  }
-}
-
-/* Автор коллекции */
+/* Подзаголовок */
 .md--m-card_primary_section_subhead {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   line-height: 1.25rem;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: normal;
   color: var(--color-text-hint);
-}
-
-@media (min-width: 800px) {
-  .md--m-card_primary_section_subhead {
-    font-size: 0.875rem;
-  }
 }
 
 /* Блок описания */
@@ -363,7 +331,7 @@ html {
 .b-catalog_entry .cover .image-cutter::before {
   content: '';
   display: block;
-  padding-bottom: 155.5%;
+  padding-top: 155.5%;
 }
 
 /* Позиционирование изображения */
@@ -371,6 +339,8 @@ html {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
