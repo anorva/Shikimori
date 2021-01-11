@@ -261,7 +261,7 @@ html {
   cursor: default;
 }
 
-.m-tabs [data-tab-switch]:not(.active):hover {
+.m-tabs [data-tab-switch]:hover {
   background-color: var(--color-overlay-text-selected);
 }
 
