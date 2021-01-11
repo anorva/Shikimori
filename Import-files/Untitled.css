@@ -59,12 +59,13 @@ html {
     align-items: center;
     padding: 8px 0;
     border-radius: 2px;
+    background-color: var(--color-overlay-text-hovered);
     color: var(--color-text-hint) !important;
     transition: background-color 0.16s cubic-bezier(0.4, 0, 0.6, 1);
   }
   .b-stats_bar .stat_names .stat_name a:hover {
     text-decoration: none;
-    background-color: var(--color-overlay-text-hovered);
+    background-color: var(--color-overlay-text-selected);
   }
   .b-stats_bar .stat_names .stat_name a:active {
     background-color: var(--color-overlay-text-pressed);
@@ -78,6 +79,54 @@ html {
   .b-stats_bar .stat_names .stat_name .size::before {
     display: none;
   }
+}
+
+.p-profiles .profile-head .c-info .c-additionals div > a {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 19px;
+  font-size: 0;
+  font-weight: bold;
+  background-color: var(--color-overlay-text-hovered);
+  color: var(--color-text-hint) !important;
+  transition: background-color 0.16s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.p-profiles .profile-head .c-info .c-additionals div > a:hover {
+  text-decoration: none;
+  background-color: var(--color-overlay-text-selected);
+}
+
+.p-profiles .profile-head .c-info .c-additionals div > a:active {
+  background-color: var(--color-overlay-text-pressed);
+}
+
+.p-profiles .profile-head .c-info .c-additionals div > a::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: '66';
+  height: 30px;
+  width: 30px;
+  margin-right: 6px;
+  border-radius: 50%;
+  line-height: 1rem;
+  font-size: 1rem;
+  background-color: var(--color-border);
+}
+
+.p-profiles .profile-head .c-info .c-additionals div > a::after {
+  content: 'Комментариев';
+  margin-right: 4px;
+  line-height: 0.875rem;
+  font-size: 0.875rem;
+}
+
+.p-profiles .profile-head .c-info .c-additionals b,
+.p-profiles .profile-head .c-info .c-additionals b::after,
+.p-profiles .profile-head .c-info .c-additionals div[data-type="video_uploads"] {
+  display: none;
 }
 
 .p-profiles-show .profile-content .activity .b-nothing_here {
