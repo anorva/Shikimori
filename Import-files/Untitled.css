@@ -41,6 +41,41 @@ html {
 }
 
 /* Бесполезный код */
+@media (min-width: 600px) {
+  .b-stats_bar .stat_names {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 8px;
+    margin-top: 8px;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+  }
+  .b-stats_bar .stat_names .stat_name {
+    padding: 0;
+  }
+  .b-stats_bar .stat_names .stat_name a {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 8px 0;
+    border-radius: 2px;
+    color: var(--color-text-hint) !important;
+    transition: background-color 0.16s cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  .b-stats_bar .stat_names .stat_name a:hover {
+    text-decoration: none;
+    background-color: var(--color-overlay-text-hovered);
+  }
+  .b-stats_bar .stat_names .stat_name a:active {
+    background-color: var(--color-overlay-text-pressed);
+  }
+  .b-stats_bar .stat_names .stat_name .size {
+    margin: auto auto 6px;
+    font-size: 1rem;
+    color: var(--color-text-primary) !important;
+  }
+}
+
 .p-profiles-show .profile-content .activity .b-nothing_here {
   position: relative;
   display: flex;
