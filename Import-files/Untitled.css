@@ -115,6 +115,7 @@ html {
   width: 30px;
   margin-right: 6px;
   border-radius: 50%;
+  overflow: hidden;
   line-height: 1rem;
   font-size: 1rem;
   background-color: var(--color-border);
