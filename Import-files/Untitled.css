@@ -85,16 +85,19 @@ html {
 .p-profiles .profile-head .c-info .c-additionals div > a {
   display: flex;
   align-items: center;
+  max-width: 38px;
   padding: 4px;
   border-radius: 19px;
+  overflow: hidden;
   font-size: 0;
   font-weight: bold;
   background-color: var(--color-overlay-text-hovered);
   color: var(--color-text-hint) !important;
-  transition: background-color 0.16s cubic-bezier(0.4, 0, 0.6, 1);
+  transition: all 240ms ease-in-out;
 }
 
 .p-profiles .profile-head .c-info .c-additionals div > a:hover {
+  max-width: 100%;
   text-decoration: none;
   background-color: var(--color-overlay-text-selected);
 }
@@ -107,6 +110,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   height: 30px;
   width: 30px;
   margin-right: 6px;
@@ -117,9 +121,22 @@ html {
 }
 
 .p-profiles .profile-head .c-info .c-additionals div > a::after {
+  flex-basis: 0;
+  flex-shrink: 1;
   margin-right: 4px;
+  opacity: 0;
+  text-indent: 4px;
   line-height: 0.875rem;
   font-size: 0.875rem;
+  transition: inherit;
+}
+
+.p-profiles .profile-head .c-info .c-additionals div > a:hover::after {
+  flex-basis: auto;
+  flex-shrink: 0;
+  flex-grow: 4;
+  opacity: 1;
+  text-indent: 0;
 }
 
 .p-profiles .profile-head .c-info .c-additionals div[data-type="comments"] > a::before {
