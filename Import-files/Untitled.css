@@ -74,6 +74,10 @@ html {
     font-size: 1rem;
     color: var(--color-text-primary) !important;
   }
+  .b-stats_bar .stat_names .stat_name a > a::before,
+  .b-stats_bar .stat_names .stat_name .size::before {
+    display: none;
+  }
 }
 
 .p-profiles-show .profile-content .activity .b-nothing_here {
