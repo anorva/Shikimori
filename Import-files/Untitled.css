@@ -244,6 +244,7 @@ html {
   flex-shrink: 0;
   min-width: 95px;
   margin-right: 8px;
+  border-radius: 2px;
   background-color: var(--color-overlay-text-hovered);
   color: var(--color-text-hint);
   -webkit-tap-highlight-color: transparent;
