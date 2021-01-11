@@ -8,8 +8,11 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* Основной размер шрифта на сайте */
+/* Основной размер текста и дополнительные переменные */
 html {
+  --m-overlay-b-c: rgb(17 17 17 / 80%);
+  --m-overlay-c: rgb(255 255 255 / 72%);
+  --m-blood-c: #c4312e;
   font-size: 16px;
 }
 
@@ -23,7 +26,7 @@ html {
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 24%);
 }
 
-/* Логотип сайта */	
+/* Логотип сайта */
 .l-top_menu-v2 .logo-container::after {	
   content: 'Shikimori';	
   font-family: 'Mansalva', cursive;	
@@ -32,6 +35,7 @@ html {
   text-transform: uppercase;	
 }
 
+/* Глиф */
 .l-top_menu-v2 .logo-container .glyph {
   display: none;
 }
@@ -53,7 +57,7 @@ html {
   display: inherit;
   align-items: center;
   margin: 0;
-  color: #c4312e;
+  color: var(--m-blood-c);
 }
 
 /* Переключатель */
@@ -84,7 +88,7 @@ html {
 
 .m-tabs [data-tab-switch]:active,
 .m-tabs [data-tab-switch].active {
-  color: #c4312e;
+  color: var(--m-blood-c);
 }
 
 /* Название переключателя */
@@ -171,8 +175,8 @@ html {
   margin: 0;
   padding: 8px;
   border-radius: 50%;
-  background-color: rgb(17 17 17 / 80%);
-  color: rgb(255 255 255 / 72%);
+  background-color: var(--m-overlay-b-c);
+  color: var(--m-overlay-c);
   pointer-events: none;
   z-index: 1;
 }
@@ -261,21 +265,12 @@ html {
   transform: scale(1.03);
 }
 
-/* Обложка в всплывающем окне */
-.b-catalog_entry-tooltip .image {
-  display: none;
-}
-
-.b-catalog_entry-tooltip .inner.offset {
-  margin-left: 0;
-}
-
-/* Иконка статуса аниме */
-.b-achievement.is-badge:before,
+/* Иконка статуса аниме и манги */
+.b-achievement.is-badge::before,
 .b-catalog_entry .image-decor::before {
   box-shadow: none !important;
-  background-color: rgb(17 17 17 / 80%) !important;
-  color: rgb(255 255 255 / 72%) !important;
+  background-color: var(--m-overlay-b-c) !important;
+  color: var(--m-overlay-c) !important;
 }
 
 /* Правки */
