@@ -130,6 +130,11 @@ html {
   }
 }
 
+/* Я вам запрещаю делать перенос строки */
+.md--m-card__gridbox br {
+  display: none;
+}
+
 /* Карточка */
 .md--m-card {
   position: relative;
