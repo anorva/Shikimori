@@ -40,7 +40,7 @@ html {
   display: none;
 }
 
-/* Бесполезный код */
+/* Кнопки под списками */
 @media (min-width: 600px) {
   .b-stats_bar .stat_names {
     display: grid;
@@ -81,6 +81,7 @@ html {
   }
 }
 
+/* Комментарии и проч. активность */
 .p-profiles .profile-head .c-info .c-additionals div > a {
   display: flex;
   align-items: center;
@@ -106,7 +107,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  content: '66';
   height: 30px;
   width: 30px;
   margin-right: 6px;
@@ -117,10 +117,17 @@ html {
 }
 
 .p-profiles .profile-head .c-info .c-additionals div > a::after {
-  content: 'Комментариев';
   margin-right: 4px;
   line-height: 0.875rem;
   font-size: 0.875rem;
+}
+
+.p-profiles .profile-head .c-info .c-additionals div[data-type="comments"] > a::before {
+  content: '66';
+}
+
+.p-profiles .profile-head .c-info .c-additionals div[data-type="comments"] > a::after {
+  content: 'Комментариев';
 }
 
 .p-profiles .profile-head .c-info .c-additionals b,
@@ -129,6 +136,7 @@ html {
   display: none;
 }
 
+/* Пустующий график активности */
 .p-profiles-show .profile-content .activity .b-nothing_here {
   position: relative;
   display: flex;
