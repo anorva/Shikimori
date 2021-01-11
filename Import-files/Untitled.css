@@ -125,7 +125,7 @@ html {
   flex-shrink: 1;
   margin-right: 4px;
   opacity: 0;
-  text-indent: 4px;
+  text-indent: -4px;
   line-height: 0.875rem;
   font-size: 0.875rem;
   transition: inherit;
@@ -134,7 +134,6 @@ html {
 .p-profiles .profile-head .c-info .c-additionals div > a:hover::after {
   flex-basis: auto;
   flex-shrink: 0;
-  flex-grow: 4;
   opacity: 1;
   text-indent: 0;
 }
