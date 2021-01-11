@@ -1,5 +1,5 @@
 [div=m-tabs to-process data-dynamic=tabs]
-  [div data-icon=favorite_border]
+  [div]
     [div=active data-tab-switch][b]Обо мне[/b][/div]
     [div data-tab-switch][b]Аниме[/b][/div]
     [div data-tab-switch][b]Манга[/b][/div]
