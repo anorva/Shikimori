@@ -137,6 +137,10 @@ html {
 }
 
 /* Пустующий график активности */
+.p-profiles-show .profile-content .activity {
+  pointer-events: none;
+}
+
 .p-profiles-show .profile-content .activity .b-nothing_here {
   position: relative;
   display: flex;
@@ -173,6 +177,10 @@ html {
 }
 
 /* Пустующий блок избранного */
+.p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites {
+  pointer-events: none;
+}
+
 .p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites > .b-nothing_here {
   display: flex;
   align-items: center;
