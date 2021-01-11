@@ -416,12 +416,12 @@ html {
 }
 
 /* Незаполненные карточки */
-.md--m-card:nth-child(n+2) > .b-link {
+.md--m-card.--empty > .b-link {
   visibility: hidden;
   opacity: 0;
 }
 
-.md--m-card:nth-child(n+2)::before {
+.md--m-card.--empty::before {
   display: flex;
   justify-content: center;
   align-items: center;
