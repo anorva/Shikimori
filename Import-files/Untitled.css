@@ -172,6 +172,40 @@ html {
   }
 }
 
+/* Пустующий блок избранного */
+.p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites > .b-nothing_here {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+}
+
+.p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites > .b-nothing_here::before {
+  display: block;
+  flex-shrink: 0;
+  font-family: 'Material Icons' !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  letter-spacing: normal;
+  text-transform: none;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+  overflow: hidden;
+}
+
+.p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites > .b-nothing_here::before {
+  content: 'visibility_off';
+  margin: auto;
+  line-height: 10.25rem;
+  font-size: 10.25rem;
+  color: var(--color-overlay-text-hovered);
+}
+
 /* Вкладки */
 .m-tabs {
   margin-bottom: 1rem;
