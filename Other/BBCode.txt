@@ -13,7 +13,7 @@
         [url=https://shikimori.one/articles/74-poryadok-prosmotra-fate-i-nasuverse-anime-v-sootvetstvii-s-pervoistochnikom]
           [div=md--m-card_media][poster]https://i.imgur.com/iOqwR7C.png[/poster][/div]
           [div=md--m-card_primary_section]
-            [div=md--m-card_primary_section_title]Nasuverse[/div]
+            [div=md--m-card_primary_section_title]Fate/Хронология[/div]
             [div=md--m-card_primary_section_subhead]Ugusu[/div]
           [/div]
         [/url]
