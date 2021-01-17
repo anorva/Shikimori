@@ -363,20 +363,6 @@ html {
   }
 }
 
-/* Иконка */
-.md--m-card::before {
-  position: absolute;
-  top: 6px;
-  left: 6px;
-  margin: 0;
-  padding: 8px;
-  border-radius: 50%;
-  background-color: var(--m-overlay-b-c);
-  color: var(--m-overlay-c);
-  pointer-events: none;
-  z-index: 1;
-}
-
 /* Блок изображения */
 .md--m-card_media {
   position: relative;
@@ -429,12 +415,12 @@ html {
 }
 
 /* Незаполненные карточки */
-.md--m-card.--empty > .b-link {
-  visibility: hidden;
-  opacity: 0;
+.md--m-card.--empty {
+  box-shadow: none;
 }
 
 .md--m-card.--empty::before {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -444,12 +430,20 @@ html {
   bottom: 0;
   height: auto;
   width: auto !important;
+  margin: 0;
   padding: 0;
   border-radius: 0;
   line-height: 4rem !important;
   font-size: 4rem !important;
-  background-color: var(--color-background-dialog);
+  background-color: transparent;
   color: var(--color-background);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.md--m-card.--empty > .b-link {
+  visibility: hidden;
+  opacity: 0;
 }
 
 /* Постеры */
