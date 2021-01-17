@@ -9,7 +9,7 @@
   [div data-tab]
     [div=m-headline]Заметки[/div]
     [div=md--m-card__gridbox]
-      [div=md--m-card data-icon=text_snippet]
+      [div=md--m-card]
         [url=https://shikimori.one/articles/74-poryadok-prosmotra-fate-i-nasuverse-anime-v-sootvetstvii-s-pervoistochnikom]
           [div=md--m-card_media][poster]https://i.imgur.com/iOqwR7C.png[/poster][/div]
           [div=md--m-card_primary_section]
