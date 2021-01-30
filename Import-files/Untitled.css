@@ -40,6 +40,13 @@ html {
   display: none;
 }
 
+/* Обложка */
+.p-profiles .profile-head::before {
+  background-position: center 14% !important;
+  background-color: var(--color-background-dialog);
+  background-blend-mode: lighten;
+}
+
 /* Кнопки под списками */
 @media (min-width: 600px) {
   .b-stats_bar .stat_names {
