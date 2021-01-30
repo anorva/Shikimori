@@ -534,6 +534,6 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 /* Прозрачность всех изображений */
-img {
+img, .p-profiles .profile-head::before {
   opacity: 90% !important;
 }
