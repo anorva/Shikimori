@@ -346,8 +346,7 @@ html {
 /* Карточка */
 .md--m-card {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   flex-shrink: 0;
   overflow: hidden;
   width: 240px;
