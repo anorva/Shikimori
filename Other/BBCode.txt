@@ -14,7 +14,7 @@
           [div=md--m-card_media][poster]https://i.imgur.com/iOqwR7C.png[/poster][/div]
           [div=md--m-card_primary_section]
             [div=md--m-card_primary_section_title]Fate/Порядок просмотра[/div]
-            [div=md--m-card_primary_section_subhead]Ugusu[/div]
+            [div=md--m-card_primary_section_subhead]shikimori.one[/div]
           [/div]
         [/url]
       [/div]
