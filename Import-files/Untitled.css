@@ -167,6 +167,20 @@ html {
   font-weight: bold;
 }
 
+/* Обо мне */
+.p-profiles .profile-content .about .subheadline {
+  display: none;
+}
+
+.p-profiles .profile-content .about .subheadline-buttons {
+  position: relative;
+  display: flex;
+}
+
+.p-profiles .profile-content .about .subheadline-buttons a.item-edit {
+  margin-left: auto !important;
+}
+
 /* Вкладки */
 .m-tabs {
   margin-bottom: 1rem;
