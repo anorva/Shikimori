@@ -83,46 +83,6 @@ html {
   }
 }
 
-/* Пустующий график активности */
-.p-profiles-show .profile-content .activity {
-  pointer-events: none;
-}
-
-.p-profiles-show .profile-content .activity .b-nothing_here {
-  position: relative;
-  display: flex;
-  align-items: center;
-  font-size: 0;
-}
-
-.p-profiles-show .profile-content .activity .b-nothing_here::before, 
-.p-profiles-show .profile-content .activity .b-nothing_here::after {
-  content: '';
-  height: 10px;
-  width: 10px;
-  margin-right: 10px;
-  animation: tt 1s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
-  background-color: var(--color-border);
-  border-radius: 2px;
-}
-
-.p-profiles-show .profile-content .activity .b-nothing_here::after {
-  margin-right: 0;
-  animation-delay: 200ms;
-}
-
-@keyframes tt {
-  from {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  to {
-    transform: translateY(0px);
-  }
-}
-
 /* Пустующий блок избранного */
 .p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites {
   pointer-events: none;
