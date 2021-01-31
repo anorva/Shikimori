@@ -52,6 +52,9 @@ html {
   .b-stats_bar .stat_names .stat_name {
     padding: 0;
   }
+  .b-stats_bar .stat_names .stat_name[data-type*="completed"] {
+    order: -1;
+  }
   .b-stats_bar .stat_names .stat_name a {
     display: flex;
     flex-direction: column-reverse;
@@ -165,20 +168,6 @@ html {
   line-height: 1.5rem;
   font-size: 1rem;
   font-weight: bold;
-}
-
-/* Обо мне */
-.p-profiles .profile-content .about .subheadline {
-  display: none;
-}
-
-.p-profiles .profile-content .about .subheadline-buttons {
-  position: relative;
-  display: flex;
-}
-
-.p-profiles .profile-content .about .subheadline-buttons a.item-edit {
-  margin-left: auto !important;
 }
 
 /* Вкладки */
