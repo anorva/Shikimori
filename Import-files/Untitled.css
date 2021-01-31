@@ -83,53 +83,6 @@ html {
   }
 }
 
-/* Пустующий блок избранного */
-.p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites {
-  pointer-events: none;
-}
-
-.p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites > .b-nothing_here {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 0;
-  color: var(--color-overlay-text-hovered);
-}
-
-.p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites > .b-nothing_here::before {
-  display: block;
-  flex-shrink: 0;
-  font-family: 'Material Icons' !important;
-  font-style: normal;
-  font-weight: 400 !important;
-  letter-spacing: normal;
-  text-transform: none;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: 'liga';
-  overflow: hidden;
-}
-
-.p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites > .b-nothing_here::before {
-  content: 'visibility_off';
-  margin: auto;
-  line-height: 5.25rem;
-  font-size: 5.25rem;
-}
-
-.p-profiles .profile-content > .cc-2 > .c-right > .block > .cc-favourites > .b-nothing_here::after {
-  content: 'Скрыто настройками приватности';
-  margin: auto;
-  line-height: 1.5rem;
-  font-size: 1rem;
-  font-weight: bold;
-}
-
 /* Вкладки */
 .m-tabs {
   margin-bottom: 1rem;
