@@ -23,7 +23,7 @@
     [div=m-headline]Пацаны[/div]
     [characters ids=6356,4003,8945,4368,8946,21089,13085,28991,42156,24496,12659,106723,13045,11895,13084,28956,24327,17,2423,85,307,14,454,30,117221,87275,27 columns=9]
     [div=m-headline]Девочки[/div]
-    [characters ids=48391,117225,136728 columns=9]
+    [characters ids=48391,117225,136728,10285,39949 columns=9]
   [/div]
   [div=hidden data-tab]
     [div=m-headline]Мангаки[/div]
