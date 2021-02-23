@@ -47,7 +47,7 @@ html {
     grid-column-gap: 8px;
     margin-top: 8px;
     line-height: 1.25rem;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
   }
   .b-stats_bar .stat_names .stat_name {
