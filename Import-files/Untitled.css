@@ -58,8 +58,8 @@ html {
   .b-stats_bar .stat_names .stat_name a {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-    padding: 8px 0;
+    align-items: flex-start;
+    padding: 8px 12px;
     border-radius: 2px;
     background-color: var(--color-overlay-text-hovered);
     color: var(--color-text-hint) !important;
@@ -73,7 +73,7 @@ html {
     background-color: var(--color-overlay-text-pressed);
   }
   .b-stats_bar .stat_names .stat_name .size {
-    margin: auto auto 6px;
+    margin: auto auto 6px 0;
     font-size: 1rem;
     color: var(--color-text-primary) !important;
   }
