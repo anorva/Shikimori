@@ -82,7 +82,18 @@ html {
   }
 }
 
+.p-profiles-show .profile-content {
+  display: grid;
+  grid-row-gap: 1rem;
+}
+
 /* Время за аниме и мангой */
+.p-profiles .profile-content > .cc-2,
+.p-profiles .profile-content > .cc-2 .c-left,
+.profile-content .lifetime {
+  margin: 0 !important;
+}
+
 .p-profiles .profile-content > .cc-2 .c-left {
   float: none;
   width: 100%;
