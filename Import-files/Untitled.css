@@ -83,6 +83,12 @@ html {
 }
 
 /* Время за аниме и мангой */
+.p-profiles .profile-content > .cc-2 .c-left {
+  float: none;
+  width: 100%;
+  padding: 0;
+}
+
 .p-profiles-show .b-stats_bar.lifetime .title {
   display: grid;
   pointer-events: none;
@@ -108,7 +114,9 @@ html {
 .p-profiles .profile-head .c-info .c-additionals,
 .p-profiles .lifetime .title > .label,
 .p-profiles-show .b-stats_bar.lifetime .bar,
-.p-profiles-show .b-stats_bar.lifetime .times {
+.p-profiles-show .b-stats_bar.lifetime .times,
+.p-profiles .profile-content .c-right,
+.p-profiles .profile-content > .cc-2 .c-right .cc-2a {
   display: none;
 }
 
