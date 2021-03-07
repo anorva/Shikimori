@@ -305,6 +305,8 @@ html {
 }
 
 /* Лишнее */
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .bar,
+.p-profiles .profile-head .c-info .c-additionals,
 .profile-content .achievements .header,
 .cc-3::after,
 .p-profiles-show .achievements .cc-achievements::after,
