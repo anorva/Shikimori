@@ -45,7 +45,6 @@ html {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-column-gap: 8px;
-    margin-top: 8px;
     line-height: 1.25rem;
     font-size: 0.875rem;
   }
@@ -81,6 +80,33 @@ html {
   .b-stats_bar .stat_names .stat_name .size::before {
     display: none;
   }
+}
+
+.p-profiles-show .b-stats_bar.lifetime .title {
+  display: grid;
+}
+
+.p-profiles .lifetime .title .value {
+  display: grid;
+  height: auto;
+  border: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.p-profiles .lifetime .title .value::before {
+  content: attr(original-title);
+  line-height: 1rem;
+  font-size: 0.875rem;
+  text-transform: none;
+}
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .bar,
+.p-profiles .profile-head .c-info .c-additionals,
+.p-profiles .lifetime .title > .label,
+.p-profiles-show .b-stats_bar.lifetime .bar,
+.p-profiles-show .b-stats_bar.lifetime .times {
+  display: none;
 }
 
 /* Вкладки */
