@@ -39,6 +39,11 @@ html {
   display: none;
 }
 
+/* Полоски аниме и манги */
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .bar {
+  display: none;
+}
+
 /* Кнопки под списками */
 @media (min-width: 600px) {
   .b-stats_bar .stat_names {
@@ -80,11 +85,6 @@ html {
   .b-stats_bar .stat_names .stat_name .size::before {
     display: none;
   }
-}
-
-/* Лишнее */
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .bar {
-  display: none;
 }
 
 /* Вкладки */
@@ -192,6 +192,7 @@ html {
 }
 
 /* Иконка статуса аниме и манги */
+.b-achievement.is-badge::before,
 .b-catalog_entry .image-decor::before {
   box-shadow: none !important;
   background-color: var(--m-overlay-b-c) !important;
