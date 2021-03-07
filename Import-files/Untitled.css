@@ -365,6 +365,10 @@ html {
   display: none;
 }
 
+.profile-content .achievements .header {
+  display: none;
+}
+
 /* Вкладки */
 .m-tabs {
   margin-bottom: 1rem;
