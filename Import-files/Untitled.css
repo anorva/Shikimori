@@ -84,6 +84,7 @@ html {
 
 .p-profiles-show .b-stats_bar.lifetime .title {
   display: grid;
+  pointer-events: none;
 }
 
 .p-profiles .lifetime .title .value {
