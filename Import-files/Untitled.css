@@ -82,6 +82,42 @@ html {
   }
 }
 
+/* Время за аниме и мангой */
+.p-profiles .profile-content > .cc-2 {
+  margin-bottom: 1rem !important;
+}
+
+.p-profiles .profile-content > .cc-2 .c-left {
+  float: none;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.p-profiles-show .b-stats_bar.lifetime .title {
+  display: grid;
+  pointer-events: none;
+}
+
+.profile-content .lifetime {
+  margin: 0 !important;
+}
+
+.p-profiles .lifetime .title .value {
+  display: grid;
+  height: auto;
+  border: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.p-profiles .lifetime .title .value::before {
+  content: attr(original-title);
+  line-height: 1rem;
+  font-size: 0.875rem;
+  text-transform: none;
+}
+
 /* Альтернативный внешний вид достижений в профиле */
 .p-profiles .profile-content .achievements {
   margin-bottom: 1rem !important;
@@ -307,6 +343,11 @@ html {
 /* Лишнее */
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .bar,
 .p-profiles .profile-head .c-info .c-additionals,
+.p-profiles .lifetime .title > .label,
+.p-profiles-show .b-stats_bar.lifetime .bar,
+.p-profiles-show .b-stats_bar.lifetime .times,
+.p-profiles-show .profile-content .activity,
+.p-profiles .profile-content .c-right,
 .profile-content .achievements .header,
 .cc-3::after,
 .p-profiles-show .achievements .cc-achievements::after,
