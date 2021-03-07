@@ -82,6 +82,7 @@ html {
   }
 }
 
+/* Время за аниме и мангой */
 .p-profiles-show .b-stats_bar.lifetime .title {
   display: grid;
   pointer-events: none;
@@ -102,6 +103,7 @@ html {
   text-transform: none;
 }
 
+/* Лишнее */
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .bar,
 .p-profiles .profile-head .c-info .c-additionals,
 .p-profiles .lifetime .title > .label,
